@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plataforma de Diagnóstico y Evaluación de Administración Tributaria</title>
+  <meta name="description" content="Sistema colaborativo de evaluación diagnóstica de administraciones tributarias y aduaneras basado en el marco de asistencia técnica y desarrollo de capacidades (FMI / CD Framework).">
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Application Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="app-container">
+    <!-- SIDEBAR -->
+    <aside class="sidebar" id="app-sidebar">
+      <div class="sidebar-header">
+        <div class="brand-badge">
+          <div class="brand-logo">
+            IMF
+          </div>
+          <div class="brand-info">
+            <h1>IMF</h1>
+            <span>Impossible Mission Force</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="sidebar-nav">
+        <div class="nav-section-title">Navegación Principal</div>
+        
+        <a class="nav-item active" data-view-target="dashboard" id="nav-dashboard">
+          <i data-lucide="layout-dashboard" style="width: 18px; height: 18px;"></i>
+          <span>Un Vistazo (Dashboard)</span>
+        </a>
+
+        <a class="nav-item" data-view-target="evaluation" id="nav-evaluation">
+          <i data-lucide="clipboard-check" style="width: 18px; height: 18px;"></i>
+          <span>Cuestionario / Matriz</span>
+          <span class="badge-count" id="nav-q-badge">0/517</span>
+        </a>
+
+        <a class="nav-item" data-view-target="team" id="nav-team">
+          <i data-lucide="users" style="width: 18px; height: 18px;"></i>
+          <span>Equipo & Asignaciones</span>
+        </a>
+
+        <a class="nav-item" data-view-target="report" id="nav-report">
+          <i data-lucide="file-text" style="width: 18px; height: 18px;"></i>
+          <span>Informe CD Report</span>
+        </a>
+
+        <!-- Pillars Submenu -->
+        <div class="nav-section-title" style="margin-top: 1.25rem;">
+          <span>Pilares de Evaluación</span>
+          <span style="font-size: 0.65rem; color: var(--text-muted);">14 Áreas</span>
+        </div>
+        
+        <div class="pillar-nav-list" id="sidebar-pillars-list">
+          <!-- Dynamic loaded pillars -->
+        </div>
+      </nav>
+
+      <!-- Sidebar User & Sync Footer -->
+      <div class="sidebar-footer">
+        <div class="user-status-card" id="sidebar-user-card" onclick="openSwitchUserModal()" title="Haga clic para cambiar de evaluador">
+          <div class="avatar" id="sidebar-user-avatar">JM</div>
+          <div class="user-info-text">
+            <div class="user-name" id="sidebar-user-name">Jefe de Misión</div>
+            <div class="user-role" id="sidebar-user-role">
+              <span style="color:var(--primary-600);font-weight:600;">Cambiar perfil &rarr;</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT WRAPPER -->
+    <div class="main-wrapper">
+      <!-- Top Application Header -->
+      <header class="top-header">
+        <div class="header-title-box">
+          <h2 id="page-header-title">Un Vistazo / Dashboard Ejecutivo</h2>
+          <p id="page-header-subtitle">Evaluación Diagnóstica Institucional</p>
+        </div>
+
+        <div class="header-actions">
+          <!-- Botón de Selección de Evaluador Activo -->
+          <button class="user-profile-btn" id="header-user-btn" onclick="openSwitchUserModal()" title="Seleccionar qué evaluador está ingresando">
+            <div class="user-profile-avatar" id="header-user-avatar" style="background:#1e40af;">JM</div>
+            <div class="user-profile-text">
+              <div class="u-name" id="header-user-name">Jefe de Misión</div>
+              <div class="u-role" id="header-user-role">Coordinador General ▾</div>
+            </div>
+          </button>
+
+          <button class="btn btn-secondary btn-sm" id="btn-export-json" title="Exportar respaldo JSON de toda la evaluación">
+            <i data-lucide="download" style="width: 15px; height: 15px;"></i>
+            <span>Exportar JSON</span>
+          </button>
+
+          <button class="btn btn-secondary btn-sm" id="btn-import-json" title="Cargar archivo JSON previo">
+            <i data-lucide="upload" style="width: 15px; height: 15px;"></i>
+            <span>Importar</span>
+          </button>
+          <input type="file" id="import-file-input" accept=".json" style="display: none;">
+
+          <button class="btn btn-secondary btn-sm" id="btn-mission-settings" title="Configurar País, Institución y Fechas de Misión">
+            <i data-lucide="settings" style="width: 15px; height: 15px;"></i>
+            <span>Misión</span>
+          </button>
+
+          <button class="btn btn-secondary btn-sm" id="btn-reset-data" onclick="openResetModal()" title="Borrar respuestas de una sección o de todo el cuestionario">
+            <i data-lucide="rotate-ccw" style="width: 15px; height: 15px; color: #ef4444;"></i>
+            <span style="color:#ef4444;font-weight:700;">Reiniciar</span>
+          </button>
+
+          <button class="btn-icon" id="theme-toggle-btn" title="Cambiar Tema Claro/Oscuro">
+            <i data-lucide="moon" style="width: 18px; height: 18px;"></i>
+          </button>
+        </div>
+      </header>
+
+      <!-- Dynamic Content Injection Container -->
+      <main class="content-container" id="main-content-area">
+        <!-- Rendered by app.js -->
+      </main>
+    </div>
+  </div>
+
+  <!-- Modal Container -->
+  <div class="modal-overlay" id="modal-overlay" onclick="if(event.target===this) closeModal()">
+    <div class="modal-content" id="modal-body">
+      <!-- Injected modal content -->
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Base Data and Main Application Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
