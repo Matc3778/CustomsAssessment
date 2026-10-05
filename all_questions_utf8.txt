@@ -1,0 +1,687 @@
+
+=== PILAR 1: 1. Factores Estratégicos y Marco Institucional ===
+  -- CRITERIO C1: Establecer un plan estratégico aprobado formalmente para la administración aduanera --
+    [pilar_1_c1_q1] P1: ¿Cuenta la administración con un plan estratégico institucional?
+    [pilar_1_c1_q2] P2: ¿Establece el proveedor de servicios estratégicos pilares, temas u objetivos?
+    [pilar_1_c1_q3] P3: ¿Establece el proveedor de servicios de Internet planes de acción de alto nivel?
+    [pilar_1_c1_q4] P4: ¿Aborda el proveedor el ISP el análisis situacional necesario para formular y asignar la estrategia al contexto institucional?
+    [pilar_1_c1_q5] P5: ¿Aborda el proveedor el ISP claramente y facilita la rendición de cuentas?
+    [pilar_1_c1_q6] P6: ¿Presenta el proveedor de servicios de Internet bases estratégicas formales (Visión, Misión y Valores Fundamentales)?
+    [pilar_1_c1_q7] P7: ¿Incluye el proveedor de servicios de Internet objetivos SMART y metas cuantificables de indicadores clave de desempeño?
+    [pilar_1_c1_q8] P8: ¿Cubre el proveedor de servicios de Internet la asignación de recursos y las proyecciones financieras?
+    [pilar_1_c1_q9] P9: ¿Incluye el proveedor de servicios de Internet una matriz de riesgos estructurada y un plan de mitigación?
+  -- CRITERIO C2: Implicar a los principales interlocutores internos y externos --
+    [pilar_1_c2_q1] P1: ¿Ofrece el plan estratégico (o documento equivalente) evidencia clara y documentada de que se ha participado o consultado activamente a grupos de interés internos o externos durante su elaboración?
+    [pilar_1_c2_q2] P2: ¿Se llevó a cabo y documentó un proceso formal e integral de consulta interna con las partes interesadas para elaborar el plan estratégico (o documento equivalente)?
+    [pilar_1_c2_q3] P3: ¿Se llevó a cabo y documentó un proceso formal e integral de consulta con las partes interesadas externas para elaborar el plan estratégico (o documento equivalente)?
+  -- CRITERIO C3: Elaborar un mapa estratégico o un marco equivalente --
+    [pilar_1_c3_q1] P1: ¿Vincula el plan estratégico (o documento equivalente) visual y lógicamente múltiples perspectivas organizativas usando la lógica causa-efecto?
+    [pilar_1_c3_q2] P2: ¿Vincula claramente el plan estratégico (o documento equivalente) los objetivos estratégicos con las principales iniciativas?
+    [pilar_1_c3_q3] P3: ¿Vincula claramente el plan estratégico (o documento equivalente) los objetivos estratégicos con los resultados e hitos esperados?
+    [pilar_1_c3_q4] P4: ¿Establece el plan estratégico (o documento equivalente) vínculos mensurables entre las principales iniciativas (insumos), los resultados esperados (metas) y los hitos (plazo)?
+  -- CRITERIO C4: Comunicar el plan estratégico e informar periódicamente sobre su avance --
+    [pilar_1_c4_q1] P1: ¿Se ha publicado el plan estratégico (o documento equivalente) y se ha comunicado a las partes interesadas internas?
+    [pilar_1_c4_q2] P2: ¿Se ha publicado el plan estratégico (o documento equivalente) y se ha comunicado a partes interesadas externas?
+    [pilar_1_c4_q3] P3: ¿Se comunican a las partes interesadas internas los resultados de las evaluaciones periódicas del plan estratégico (o documento equivalente)?
+    [pilar_1_c4_q4] P4: ¿Se publican y comunican a partes interesadas externas los resultados de las evaluaciones periódicas del plan estratégico (o documento equivalente)?
+  -- CRITERIO C5: Garantizar la coherencia entre planificación, presupuestación y asignación de recursos --
+    [pilar_1_c5_q1] P1: ¿Tiene cada proyecto del piso operativo un "objetivo principal" directo en el plan estratégico (o documento equivalente)?
+    [pilar_1_c5_q2] P2: ¿Tiene cada iniciativa estratégica su fuente exacta de financiamiento, proyección de costos y asignación de recursos humanos claramente documentadas en el presupuesto fiscal en vigor y vinculadas al plan estratégico (o documento equivalente)?
+  -- CRITERIO C6: Traducir el plan estratégico en planes operativos anuales priorizados. --
+    [pilar_1_c6_q1] P1: ¿Tienen todos los proyectos un conjunto integral y equilibrado de indicadores clave de desempeño y un plan de ejecución alineado con la hoja de ruta estratégica definida en el plan estratégico (o documento equivalente)?
+    [pilar_1_c6_q2] P2: ¿Tienen todos los procesos un conjunto integral y equilibrado de indicadores clave de desempeño y metas, alineados con la hoja de ruta estratégica definida en el plan estratégico (o documento equivalente)?
+  -- CRITERIO C7: Monitorear y mejorar continuamente el desempeño mediante indicadores --
+    [pilar_1_c7_q1] P1: ¿Tienen cada indicador clave de desempeño (KPI) vinculado al plan estratégico (o documento equivalente) un punto de partida verificado (escenario base) y un destino cuantificado (objetivo)?
+    [pilar_1_c7_q2] P2: ¿Se define, mide y supervisa periódicamente un conjunto exhaustivo de indicadores clave de desempeño en consonancia con el plan estratégico (o documento equivalente)?
+    [pilar_1_c7_q3] P3: ¿Existe una correspondencia clara que demuestre que los objetivos operativos directamente convergen hacia hitos tácticos que, en última instancia, alimentan objetivos estratégicos más amplios dentro del plan estratégico (o documento equivalente)?
+    [pilar_1_c7_q4] P4: ¿Se realizan exámenes estructurados y periódicos en virtud de los cuales quedar por detrás de la referencia establecida en el plan estratégico (o documento equivalente) desencadena medidas correctivas inmediatas, un giro de la estrategia o una reasignación de recursos?
+  -- CRITERIO C8: Analizar periódicamente las tendencias de la recaudación --
+    [pilar_1_c8_q1] P1: ¿La recaudación de ingresos se analiza periódicamente en detalle para evaluar la correspondencia con los objetivos establecidos en el plan estratégico (o documento equivalente)?
+    [pilar_1_c8_q2] P2: ¿Se analizan periódicamente los factores impulsores subyacentes de los aumentos o disminuciones de los ingresos y se utilizan para ajustar los pronósticos y perfeccionar el plan estratégico (o documento equivalente)?
+
+=== PILAR 2: 2. Gestión Integrada de Riesgos Institucionales y Operativos ===
+  -- CRITERIO C1: Establecer un marco integrado de gestión de riesgos. --
+    [pilar_2_c1_q1] P1: ¿Existe un marco de gestión integrada de riesgos aprobado y vigente?
+    [pilar_2_c1_q2] P2: ¿Abarca el marco tanto los riesgos institucionales como los riesgos de cumplimiento aduanero?
+    [pilar_2_c1_q3] P3: ¿Es este marco conocido y comprendido por las principales áreas de la administración aduanera?
+    [pilar_2_c1_q4] P4: ¿Existe una metodología documentada para identificar, evaluar, tratar y monitorear riesgos significativos?
+    [pilar_2_c1_q5] P5: ¿Tiene en cuenta la metodología las causas fundamentales y las vulnerabilidades de los procesos, los datos, la tecnología, la infraestructura y los recursos humanos?
+    [pilar_2_c1_q6] P6: ¿Se aplica el marco con regularidad en la toma de decisiones estratégicas, tácticas y operativas?
+  -- CRITERIO C2: Contar con un mecanismo de gobernanza de la gestión de riesgos --
+    [pilar_2_c2_q1] P1: ¿Existe un comité de riesgo u otro mecanismo formal de gobernanza para la gestión del riesgo aduanero?
+    [pilar_2_c2_q2] P2: ¿Se definen claramente el mandato, el alcance, la frecuencia y los resultados esperados del comité?
+    [pilar_2_c2_q3] P3: ¿Se reúne el comité con suficiente regularidad para responder a los cambios en el comercio exterior y los riesgos emergentes?
+    [pilar_2_c2_q4] P4: ¿Analiza el comité riesgos institucionales y de cumplimiento, no solo los criterios de selectividad?
+    [pilar_2_c2_q5] P5: ¿Se documentan las decisiones del comité con las partes responsables, plazos y acciones de seguimiento?
+    [pilar_2_c2_q6] P6: ¿Realiza el comité un seguimiento periódico del avance de las medidas de tratamiento del riesgo?
+  -- CRITERIO C3: Elaborar e implementar planes de mejora del cumplimiento --
+    [pilar_2_c3_q1] P1: ¿Se identifican riesgos prioritarios de cumplimiento para los cuales se requieren planes de mejora?
+    [pilar_2_c3_q2] P2: ¿Identifican los planes las causas subyacentes de los riesgos?
+    [pilar_2_c3_q3] P3: ¿Se definen los planes tratamientos diferenciados según el tipo de operador, su tamaño, su comportamiento de cumplimiento y el nivel de riesgo?
+    [pilar_2_c3_q4] P4: ¿Incluyen los planes medidas de educación, asistencia, facilitación, control y aplicación de sanciones, según corresponda?
+    [pilar_2_c3_q5] P5: ¿Asignan los planes a los responsables, plazos, recursos e indicadores de supervisión?
+    [pilar_2_c3_q6] P6: ¿Hay evidencia de la implementación y de revisiones periódicas de estos planes?
+  -- CRITERIO C4: Establecer indicadores de desempeño para la GIR --
+    [pilar_2_c4_q1] P1: ¿Existen indicadores estratégicos, tácticos y operativos para medir la gestión integrada de riesgos?
+    [pilar_2_c4_q2] P2: ¿Los indicadores incluyen las tasas de eficacia, los resultados de los controles, la reincidencia, el cumplimiento voluntario y la eficacia del tratamiento?
+    [pilar_2_c4_q3] P3: ¿Tienen los indicadores un punto de base, metas, frecuencia de presentación de informes y partes responsables de la presentación de informes?
+    [pilar_2_c4_q4] P4: ¿Los resultados se notifican periódicamente a la gerencia y al comité de riesgos?
+    [pilar_2_c4_q5] P5: ¿Se usan regularmente los resultados para ajustar perfiles, planes de tratamiento, selectividad y prioridades operativas?
+
+=== PILAR 3: 3. Integridad, Ética, Transparencia y Rendición de Cuentas ===
+  -- CRITERIO C1: Establecer y aplicar una estrategia y un plan de acción en materia de integridad aduanera --
+    [pilar_3_c1_q1] P1: ¿Existe una estrategia de integridad documentada aprobada por la gerencia?
+    [pilar_3_c1_q2] P2: ¿Incluye la estrategia un plan de acción con responsabilidades y plazos claros?
+    [pilar_3_c1_q3] P3: ¿Se supervisa e informa periódicamente la implementación?
+  -- CRITERIO C2: Mantener un marco jurídico, procesal y ético claro --
+    [pilar_3_c2_q1] P1: ¿Están claramente definidas las obligaciones en materia de integridad, ética y lucha contra la corrupción en la legislación, las políticas y los procedimientos?
+    [pilar_3_c2_q2] P2: ¿Existe un código de conducta que incluya los conflictos de intereses, los regalos, las declaraciones patrimoniales y las interacciones con usuarios?
+    [pilar_3_c2_q3] P3: ¿Las infracciones se investigan y sancionan de manera sistemática?
+  -- CRITERIO C3: Promover una cultura de integridad y profesionalismo --
+    [pilar_3_c3_q1] P1: ¿Promueven activamente los altos dirigentes la integridad y el comportamiento ético?
+    [pilar_3_c3_q2] P2: ¿Recibe el personal capacitación periódica sobre integridad y ética?
+    [pilar_3_c3_q3] P3: ¿Participa el personal mediante actividades de comunicación, sensibilización y mecanismos de consulta?
+  -- CRITERIO C4: Aplicar políticas de recursos humanos basadas en el mérito y sensibles a la integridad --
+    [pilar_3_c4_q1] P1: ¿Los procesos de contratación, ascenso y despliegue están meritocráticos y son transparentes?
+    [pilar_3_c4_q2] P2: ¿Se aplican controles adicionales a las posiciones de alto riesgo o sensibles?
+    [pilar_3_c4_q3] P3: ¿Las declaraciones de activos e intereses se presentan periódicamente de manera electrónica, se verifican y hacen un seguimiento?
+  -- CRITERIO C5: Detectar, evaluar, clasificar y tratar los riesgos en materia de integridad y corrupción mediante una metodología documentada y un mapa de riesgos. --
+    [pilar_3_c5_q1] P1: ¿Existe una metodología documentada para identificar y evaluar los riesgos en materia de integridad?
+    [pilar_3_c5_q2] P2: ¿Se mantiene y actualiza un registro de riesgos de integridad o un mapa de riesgos?
+    [pilar_3_c5_q3] P3: ¿Se aplican, supervisan y examinan las medidas de mitigación?
+  -- CRITERIO C6: Utilizar automatización, trazabilidad digital, controles internos y auditoría. --
+    [pilar_3_c6_q1] P1: ¿Están automatizados los procedimientos básicos para reducir la toma de decisiones discrecionales y el contacto personal?
+    [pilar_3_c6_q2] P2: ¿Existe una trazabilidad digital adecuada de las transacciones y las decisiones?
+    [pilar_3_c6_q3] P3: ¿Se llevan a cabo y se llevan a cabo actividades de control de auditoría interna y se toman medidas periódicamente?
+  -- CRITERIO C7: Establecer mecanismos de información confidencial, asuntos internos, investigación y gestión de casos --
+    [pilar_3_c7_q1] P1: ¿Se dispone de canales confidenciales para denunciar casos de conducta indebida?
+    [pilar_3_c7_q2] P2: ¿Existen mecanismos institucionales y de gobernanza sólidos que garanticen mecanismos eficaces de declaración de información confidencial, investigación de asuntos internos y gestión de casos?
+    [pilar_3_c7_q3] P3: ¿Las denuncias y denuncias se investigan mediante procedimientos documentados?
+    [pilar_3_c7_q4] P4: ¿Están protegidos los denunciantes y denunciantes de represalias?
+  -- CRITERIO C8: Coordinar investigaciones, derivaciones e intercambio de información con autoridades externas competentes --
+    [pilar_3_c8_q1] P1: ¿Existen acuerdos formales con las autoridades de aplicación y otras autoridades competentes?
+    [pilar_3_c8_q2] P2: ¿Existen canales seguros para intercambiar información con otros organismos encargados de hacer cumplir la ley?
+    [pilar_3_c8_q3] P3: ¿Se hace seguimiento y seguimiento de los casos derivados?
+  -- CRITERIO C9: Promover la transparencia, la participación de las partes interesadas y la rendición de cuentas --
+    [pilar_3_c9_q1] P1: ¿Está la información aduanera fundamental a disposición pública y oportuna de las partes interesadas, y se actualiza periódicamente?
+    [pilar_3_c9_q2] P2: ¿Se consulta periódicamente a operadores, corredores de bolsa y otras partes interesadas?
+    [pilar_3_c9_q3] P3: ¿Se usan los resultados de encuestas, las quejas, los hallazgos de la auditoría y los indicadores de integridad para mejorar el desempeño?
+
+=== PILAR 4: 4. Gobernanza de Datos y Capacidades Analíticas Avanzadas ===
+  -- CRITERIO C1: Adoptar e implementar un marco de gestión de gobierno y análisis de datos --
+    [pilar_4_c1_q1] P1: ¿Ha aprobado formalmente la administración un marco de gestión de gobierno y análisis de datos acorde con sus objetivos estratégicos?
+    [pilar_4_c1_q2] P2: ¿Define el marco principios, alcance, prioridades, recursos, cronogramas de aplicación, mecanismos de supervisión y mecanismos de examen periódico?
+    [pilar_4_c1_q3] P3: ¿Se aplica el marco en todas las funciones aduaneras pertinentes, desde la creación de datos hasta la retención, uso, intercambio y eliminación?
+    [pilar_4_c1_q4] P4: ¿Se revisan periódicamente los avances y resultados de la implementación y se utilizan para actualizar el marco?
+  -- CRITERIO C2: Asignar responsabilidades claras de propiedad, administración y coordinación de los datos --
+    [pilar_4_c2_q1] P1: ¿Se asignan formalmente responsabilidades de propiedad, custodia y coordinación de datos para los principales conjuntos de datos y procesos aduaneros?
+    [pilar_4_c2_q2] P2: ¿Las funciones y responsabilidades se entienden y aplican en las funciones de negocios, tecnología, análisis y control?
+    [pilar_4_c2_q3] P3: ¿Son los propietarios o administradores responsables de la calidad, el acceso, la protección, el intercambio y el uso de los datos?
+    [pilar_4_c2_q4] P4: ¿Existe un mecanismo de coordinación activa para resolver las cuestiones de gobernanza de datos interfuncionales?
+  -- CRITERIO C3: Mantener catálogos de datos institucionales, inventarios y reglas de clasificación --
+    [pilar_4_c3_q1] P1: ¿Mantiene la administración un catálogo o inventario de datos institucionales que abarque las principales fuentes de datos internos y externos?
+    [pilar_4_c3_q2] P2: ¿Identifica en el catálogo el origen de los datos, el contenido, la importancia crítica, los requisitos de calidad, las restricciones de uso, los propietarios o administradores y las normas de retención?
+    [pilar_4_c3_q3] P3: ¿Se documentan y aplican las normas de acceso, intercambio, confidencialidad y uso en los conjuntos de datos catalogados?
+    [pilar_4_c3_q4] P4: ¿Se revisa y actualiza periódicamente el catálogo para reflejar cambios en los sistemas, procesos y utilización de datos?
+  -- CRITERIO C4: Implementar controles de calidad, validación y depuración de los datos --
+    [pilar_4_c4_q1] P1: ¿Se definen controles de calidad, validación y depuración de datos para los datos utilizados en las operaciones, la gestión de riesgos, los análisis y la vigilancia del rendimiento?
+    [pilar_4_c4_q2] P2: ¿Están estos controles integrados en sistemas, flujos de tareas o procedimientos, en lugar de aplicarse solo de forma ad hoc?
+    [pilar_4_c4_q3] P3: ¿Se hace un seguimiento de los problemas de calidad de los datos, se asigna para su resolución y se hace seguimiento hasta que se corrigen?
+    [pilar_4_c4_q4] P4: ¿Los resultados de la calidad de los datos se miden y se comunican a los gerentes o órganos de gobernanza responsables?
+  -- CRITERIO C5: Desarrollar una arquitectura de datos integrada e interoperable --
+    [pilar_4_c5_q1] P1: ¿Ha desarrollado la administración una arquitectura de datos integrada que reduzca la duplicación y los silos de datos entre las funciones principales de la aduana?
+    [pilar_4_c5_q2] P2: ¿Proporciona la arquitectura una visión institucional unificada de los principales datos aduaneros para fines operativos y analíticos?
+    [pilar_4_c5_q3] P3: ¿Promueve este el intercambio seguro de información con entidades públicas pertinentes, organismos fronterizos, administraciones aduaneras, organizaciones internacionales y partes interesadas?
+    [pilar_4_c5_q4] P4: ¿Se aplican normas y salvaguardias pertinentes para garantizar la interoperabilidad, la confidencialidad, la integridad y el intercambio controlado de datos?
+  -- CRITERIO C6: Desarrollar las capacidades analíticas institucionales --
+    [pilar_4_c6_q1] P1: ¿Dispone la administración de herramientas y métodos analíticos exclusivos para respaldar la toma de decisiones, la gestión de riesgos, la focalización, el control, la facilitación, la gestión del cumplimiento y la supervisión del rendimiento?
+    [pilar_4_c6_q2] P2: ¿Se asigna personal con conocimientos analíticos especializados a las funciones aduaneras o unidades analíticas pertinentes?
+    [pilar_4_c6_q3] P3: ¿Los métodos analíticos están documentados, son repetibles y se someten a revisión o control de calidad?
+    [pilar_4_c6_q4] P4: ¿Se ofrece capacitación basada en funciones para que los usuarios operativos y de gestión puedan interpretar y utilizar eficazmente los resultados analíticos?
+  -- CRITERIO C7: Establecer mecanismos de gobernanza, validación y supervisión para modelos analíticos. --
+    [pilar_4_c7_q1] P1: ¿Existen mecanismos de gobernanza para los modelos analíticos, que incluyan aprobación, rendición de cuentas, documentación y control del cambio?
+    [pilar_4_c7_q2] P2: ¿Los modelos se prueban y validan antes de usarse en la toma de decisiones operativas o la selección de riesgos?
+    [pilar_4_c7_q3] P3: ¿Se lleva a cabo un seguimiento periódico del desempeño, la precisión y los impactos operacionales del modelo?
+    [pilar_4_c7_q4] P4: ¿Se aplican recalibración, supervisión humana, trazabilidad y salvaguardias cuando se emplean automatización, análisis avanzados o inteligencia artificial?
+  -- CRITERIO C8: Definir, regular y utilizar indicadores y paneles basados en datos --
+    [pilar_4_c8_q1] P1: ¿Se definen formalmente indicadores y tableros de control basados en datos para valorar la calidad de los datos, la administración, la disponibilidad, el uso y el cumplimiento de las políticas de gobernanza?
+    [pilar_4_c8_q2] P2: ¿Los gerentes elaboran e emplean paneles o informes periódicamente para respaldar el desempeño operativo, la gestión de riesgos, las iniciativas de reforma y la rendición de cuentas?
+    [pilar_4_c8_q3] P3: ¿Se documentan las definiciones de los indicadores, las fuentes de datos, la frecuencia de actualización y los propietarios responsables?
+    [pilar_4_c8_q4] P4: ¿Se examinan los resultados de los tableros de control y se actúa en él cuando ponen de manifiesto debilidades o lagunas de desempeño?
+  -- CRITERIO C9: Garantizar una adecuada capacidad tecnológica para la gestión y el análisis de datos --
+    [pilar_4_c9_q1] P1: ¿Evalúa la administración periódicamente si los sistemas, la infraestructura, las herramientas y las competencias satisfacen las necesidades analíticas y de gestión de datos?
+    [pilar_4_c9_q2] P2: ¿Las brechas tecnológicas y de aptitudes detectadas se traducen oportunamente en planes de inversión, medidas de contratación pública o iniciativas de fortalecimiento de las capacidades?
+    [pilar_4_c9_q3] P3: ¿Las evaluaciones de tecnología están vinculadas a los requisitos operativos, las prioridades institucionales y las proyecciones de carga de trabajo o volumen de datos futuras?
+    [pilar_4_c9_q4] P4: ¿Se lleva a cabo un seguimiento de los avances en la implementación y de las ventajas de las inversiones en tecnología después del despliegue?
+  -- CRITERIO C10: Establecer y probar mecanismos de seguridad de datos y sistemas, respaldo, recuperación y continuidad --
+    [pilar_4_c10_q1] P1: ¿Los controles de seguridad de los datos y de los sistemas se definen de manera formal y son proporcionales a la importancia crítica de los datos aduaneros, los sistemas y los servicios analíticos?
+    [pilar_4_c10_q2] P2: ¿Se documentan los planes de respaldo, recuperación y continuidad de las operaciones para los sistemas y conjuntos de datos aduaneros críticos?
+    [pilar_4_c10_q3] P3: ¿Se prueban periódicamente los mecanismos de seguridad, respaldo, recuperación y continuidad?
+    [pilar_4_c10_q4] P4: ¿Se usan los resultados de las pruebas, los incidentes y las lecciones aprendidas para mejorar los mecanismos de seguridad y continuidad?
+  -- CRITERIO C11: Incluyen gestión de gobierno, seguridad y análisis de datos en los planes de auditoría y aseguramiento --
+    [pilar_4_c11_q1] P1: ¿La gobernanza, seguridad y análisis de datos se incluyen en la auditoría interna o en los planes de aseguramiento?
+    [pilar_4_c11_q2] P2: ¿Las actividades de auditoría o garantía abarcan el acceso a los datos, los cambios de datos, el cumplimiento de normas de gobernanza, los controles de modelos y las salvaguardias de calidad, seguridad, confidencialidad e integridad?
+    [pilar_4_c11_q3] P3: ¿Se trasladan los hallazgos y las recomendaciones de la auditoría a las medidas de la gerencia y al cierre?
+    [pilar_4_c11_q4] P4: ¿Se usan los resultados de auditoría o aseguramiento para reforzar el uso institucional de los datos y el análisis?
+
+=== PILAR 5: 5. Tecnologías de la Información y las Comunicaciones (TIC) ===
+  -- CRITERIO C1: Institucionalizar la gobernanza y la alineación estratégica de la TI --
+    [pilar_5_c1_q1] P1: ¿Se documentan formalmente las responsabilidades de gobernanza de la tecnología de la información, las facultades decisorias y los mecanismos de rendición de cuentas?
+    [pilar_5_c1_q2] P2: ¿Están las prioridades de TI y las decisiones de asignación de recursos alineadas con los objetivos estratégicos de la aduana y las prioridades operativas?
+    [pilar_5_c1_q3] P3: ¿La gerencia examina periódicamente el riesgo informático y se incorpora a la toma de decisiones en la adopción de decisiones?
+  -- CRITERIO C2: Mantener una estrategia tecnológica y una hoja de ruta de modernización --
+    [pilar_5_c2_q1] P1: ¿Mantiene la administración documentada la estrategia tecnológica y una hoja de ruta de modernización?
+    [pilar_5_c2_q2] P2: ¿Define la hoja de ruta las prioridades, los plazos de implementación, las dependencias, los recursos y los beneficios esperados?
+    [pilar_5_c2_q3] P3: ¿Se lleva a cabo un seguimiento e información periódica sobre los avances con respecto a la hoja de ruta?
+  -- CRITERIO C3: Garantizar una base jurídica y reglamentaria para los procesos aduaneros digitales --
+    [pilar_5_c3_q1] P1: ¿Reconocen las leyes o reglamentos las transacciones electrónicas y los registros digitales con fines aduaneros?
+    [pilar_5_c3_q2] P2: ¿Están las firmas electrónicas, notificaciones o evidencia digital respaldadas por la ley y aceptadas operacionalmente?
+    [pilar_5_c3_q3] P3: ¿Se incorporan requisitos de privacidad y protección de datos personales a los procesos aduaneros digitales?
+  -- CRITERIO C4: Uso de la arquitectura institucional para guiar los procesos habilitados por la tecnología --
+    [pilar_5_c4_q1] P1: ¿Se utiliza un marco de arquitectura institucional para guiar las inversiones tecnológicas y el desarrollo de sistemas?
+    [pilar_5_c4_q2] P2: ¿Define la arquitectura las normas para los procesos empresariales, las aplicaciones, los datos y la infraestructura?
+    [pilar_5_c4_q3] P3: ¿Exige el marco de arquitectura empresarial paradigmas arquitectónicos modernos (como MBP, microservicios y orquestación low-code) para sustituir a las plataformas heredadas rígidas y codificadas?
+    [pilar_5_c4_q4] P4: ¿Define la arquitectura normas explícitas de usabilidad, interfaz y experiencia de usuario para garantizar que los sistemas entregados sean intuitivos para los oficiales internos y los usuarios de la comunidad comercial?
+    [pilar_5_c4_q5] P5: ¿Se diseñaron e implementan las normas de integración arquitectónica e intercambio de datos para garantizar un procesamiento fluido de extremo a extremo y eliminar la dependencia de soluciones manuales fuera de línea?
+    [pilar_5_c4_q6] P6: ¿Se evalúan los nuevos sistemas y proyectos para verificar su coherencia con la arquitectura institucional?
+  -- CRITERIO C5: Gestionar soluciones tecnológicas, proyectos, contratos y proveedores --
+    [pilar_5_c5_q1] P1: ¿Los proyectos tecnológicos se gestionan mediante procesos de gestión y gobernanza de proyectos documentados?
+    [pilar_5_c5_q2] P2: ¿Se realizan sistemáticamente actividades de realización de pruebas, control de cambios, documentación y aceptación por parte del usuario antes de implementarse?
+    [pilar_5_c5_q3] P3: ¿Se lleva a cabo un seguimiento periódico del desempeño, los niveles de servicio, los resultados y las obligaciones contractuales?
+  -- CRITERIO C6: Desarrollar capacidades internas y promover la adopción por parte de los usuarios --
+    [pilar_5_c6_q1] P1: ¿Se capacita periódicamente a los usuarios sobre los sistemas pertinentes para sus funciones?
+    [pilar_5_c6_q2] P2: ¿Hay servicios de apoyo funcional y técnico disponibles para los usuarios?
+    [pilar_5_c6_q3] P3: ¿Se utilizan las opiniones de los usuarios y las actividades de gestión del cambio para mejorar la adopción y reducir las soluciones manuales?
+    [pilar_5_c6_q4] P4: ¿Están las interfaces internas diseñadas de forma intuitiva para facilitar las operaciones diarias y prevenir activamente la necesidad de soluciones fuera del sistema?
+    [pilar_5_c6_q5] P5: ¿Pueden los equipos operativos gestionar, configurar o adaptar flujos de tareas mediante funciones de autoservicio y bajo código sin que el Departamento de Informática tenga que reescribir el código heredado?
+  -- CRITERIO C7: Proteger los sistemas y datos críticos --
+    [pilar_5_c7_q1] P1: ¿Se implementan controles de seguridad de la información para los sistemas y datos críticos?
+    [pilar_5_c7_q2] P2: ¿Los derechos de acceso se gestionan mediante controles de acceso basados en funciones, autenticación sólida y segregación de funciones?
+    [pilar_5_c7_q3] P3: ¿Se han establecido y funcionado procesos de registro, supervisión, respuesta a incidentes y recuperación?
+  -- CRITERIO C8: Garantizar la continuidad de las operaciones, la recuperación en caso de catástrofes y la resiliencia en las operaciones --
+    [pilar_5_c8_q1] P1: ¿Existen planes documentados de continuidad de las operaciones y recuperación ante desastres para los sistemas críticos?
+    [pilar_5_c8_q2] P2: ¿Se mantienen copias de seguridad, mecanismos de replicación y procedimientos de recuperación con regularidad?
+    [pilar_5_c8_q3] P3: ¿Se comprueban periódicamente la continuidad y los mecanismos de recuperación?
+  -- CRITERIO C9: Digitalizar, automatizar y usar eficazmente los sistemas aduaneros básicos --
+    [pilar_5_c9_q1] P1: ¿Las transacciones aduaneras principales se procesan mediante sistemas electrónicos en lugar de procedimientos impresos?
+    [pilar_5_c9_q2] P2: ¿Facilitan los sistemas la captura, validación, procesamiento, almacenamiento y trazabilidad de las transacciones aduaneras?
+    [pilar_5_c9_q3] P3: ¿Se han eliminado las soluciones técnicas manuales mediante la automatización y la integración de sistemas?
+    [pilar_5_c9_q4] P4: ¿Las operaciones aduaneras principales se organizan mediante plataformas modernas de bajo código, orientadas a procesos, que permiten un rápido desarrollo de aplicaciones y la automatización de procesos, en lugar de depender de tecnologías heredadas codificadas?
+  -- CRITERIO C10: Uso de sistemas para controlar las obligaciones y los regímenes aduaneros --
+    [pilar_5_c10_q1] P1: ¿Los sistemas registran y supervisan los derechos aduaneros, impuestos, exenciones y regímenes especiales?
+    [pilar_5_c10_q2] P2: ¿Puede la administración hacer un seguimiento de eventos operativos tales como depósito, tránsito, detenciones y notificaciones mediante los registros del sistema?
+    [pilar_5_c10_q3] P3: ¿Se utilizan controles automatizados para respaldar el seguimiento del cumplimiento y las actividades de cumplimiento?
+  -- CRITERIO C11: Prestar servicios digitales a comerciantes y otros usuarios externos --
+    [pilar_5_c11_q1] P1: ¿Tienen disponibles en línea servicios seguros para que los operadores y otros usuarios externos puedan realizar transacciones y realizar pagos electrónicos?
+    [pilar_5_c11_q2] P2: ¿Todos los servicios externos críticos están diseñados con normas modernas de funcionalidad que faciliten interacciones intuitivas de autoservicio para la comunidad comercial?
+    [pilar_5_c11_q3] P3: ¿Todos los datos y solicitudes críticos presentados por usuarios externos se fluyen directamente a flujos de trabajo centrales automatizados sin tener que ser procesados manualmente, reingresarlos o evitar soluciones alternativa por parte del personal de la aduana?
+    [pilar_5_c11_q4] P4: ¿Facilita la plataforma digital una interoperabilidad completa y moderna entre sistemas (como las API) que permita a los operadores comerciales externos integrar sus propios sistemas informáticos sin problemas con los procesos aduaneros?
+    [pilar_5_c11_q5] P5: ¿Existe un nivel efectivo de integración con los usuarios externos mediante notificaciones automatizadas y oportunas que les actualicen de forma proactiva sobre el estado de las transacciones y las acciones que deben tomarse durante el proceso de autorización?
+    [pilar_5_c11_q6] P6: ¿Existen canales de asistencia para los usuarios de los servicios digitales?
+    [pilar_5_c11_q7] P7: ¿Sirven estos canales de apoyo a la hora de resolver rápidamente los problemas de los usuarios y captar activamente las opiniones de los usuarios a fin de impulsar una mejora continua de los servicios digitales?
+  -- CRITERIO C12: Facilitar y usar eficazmente la interoperabilidad y el intercambio coordinado de información --
+    [pilar_5_c12_q1] P1: ¿Están los sistemas aduaneros conectados de manera electrónica con los organismos gubernamentales pertinentes o con plataformas externas?
+    [pilar_5_c12_q2] P2: ¿El intercambio de información es automático para respaldar actividades de validación, cumplimiento o control fronterizo?
+    [pilar_5_c12_q3] P3: ¿Ha reducido la interoperabilidad la presentación de datos duplicados o el intercambio manual de información?
+  -- CRITERIO C13: Adoptar y activar nuevas tecnologías para optimizar los principales procesos y funciones aduaneras --
+    [pilar_5_c13_q1] P1: ¿Ha adoptado y desplegado la administración nuevas tecnologías para respaldar las operaciones aduaneras o las funciones de control?
+    [pilar_5_c13_q2] P2: ¿Se definieron los requisitos empresariales, los cambios de procesos y los requisitos de integración antes de la implementación?
+    [pilar_5_c13_q3] P3: ¿Están las tecnologías integradas con los sistemas, flujos de datos y procesos operativos pertinentes?
+    [pilar_5_c13_q4] P4: ¿Existen mecanismos de apoyo operativo, mantenimiento, capacitación del usuario y gestión del cambio para las tecnologías desplegadas?
+  -- CRITERIO C14: Adoptar y usar los análisis avanzados y la inteligencia artificial de forma responsable para reforzar los principales procesos aduaneros --
+    [pilar_5_c14_q1] P1: ¿Ha adoptado y desplegado la administración nuevas tecnologías para respaldar las operaciones aduaneras o las funciones de control?
+    [pilar_5_c14_q2] P2: ¿Se definieron los requisitos empresariales, los cambios de procesos y los requisitos de integración antes de la implementación?
+    [pilar_5_c14_q3] P3: ¿Están las tecnologías integradas con los sistemas, flujos de datos y procesos operativos pertinentes?
+    [pilar_5_c14_q4] P4: ¿Existen mecanismos de apoyo operativo, mantenimiento, capacitación del usuario y gestión del cambio para las tecnologías desplegadas?
+    [pilar_5_c14_q5] P5: ¿Ha adoptado y desplegado la administración nuevas tecnologías para respaldar las operaciones aduaneras o las funciones de control?
+    [pilar_5_c14_q6] P6: ¿Se definieron los requisitos empresariales, los cambios de procesos y los requisitos de integración antes de la implementación?
+    [pilar_5_c14_q7] P7: ¿Están las tecnologías integradas con los sistemas, flujos de datos y procesos operativos pertinentes?
+  -- CRITERIO C15: Supervisan el rendimiento, la eficacia y las ventajas de los procesos facilitados por la tecnología --
+    [pilar_5_c15_q1] P1: ¿Se emplean indicadores y tableros de control para medir el rendimiento de los procesos facilitados por la tecnología?
+    [pilar_5_c15_q2] P2: ¿Se comunica periódicamente a la gerencia información sobre la disponibilidad del sistema, los niveles de servicio, la seguridad y los resultados operacionales?
+    [pilar_5_c15_q3] P3: ¿Se utilizan los resultados del seguimiento para identificar debilidades y impulsar mejoras operativas o tecnológicas?
+
+=== PILAR 6: 6. Gestión Integral del Talento Humano ===
+  -- CRITERIO C1: Establecer e establecer una función de gestión de recursos humanos con mandato claro y suficiente dotación de recursos --
+    [pilar_6_c1_q1] P1: ¿Ha establecido formalmente la organización una función de gestión de recursos humanos con un mandato claramente definido?
+    [pilar_6_c1_q2] P2: ¿Se documentan formalmente las responsabilidades estratégica, operativa, de asesoramiento y supervisión de la función de GRH?
+    [pilar_6_c1_q3] P3: ¿Tiene la función de GRH suficiente personal, presupuesto y herramientas para cumplir con sus responsabilidades?
+    [pilar_6_c1_q4] P4: ¿Participa la función de GRH activamente en la toma de decisiones relacionadas con la plantilla en toda la organización?
+  -- CRITERIO C2: Definir, comunicar y aplicar de manera coherente las políticas, normas y procedimientos de GRH. --
+    [pilar_6_c2_q1] P1: ¿Se documentan formalmente y aprueban las políticas, normas y procedimientos de GRH?
+    [pilar_6_c2_q2] P2: ¿Las políticas y los procedimientos de GRH se comunican periódicamente a todos los empleados?
+    [pilar_6_c2_q3] P3: ¿Se aplican las políticas de HRM de manera coherente a todos los departamentos y grupos de empleados?
+    [pilar_6_c2_q4] P4: ¿Existen mecanismos que promuevan la transparencia, la integridad, el compromiso del personal y la comunicación bidireccional sobre cuestiones de RR. HH.?
+  -- CRITERIO C3: Formular y aplicar una estrategia de gestión de recursos humanos y un plan de personal --
+    [pilar_6_c3_q1] P1: ¿Tiene la organización una estrategia documentada de gestión de recursos humanos acorde con los objetivos y prioridades operativas de la organización?
+    [pilar_6_c3_q2] P2: ¿Existe un plan de personal que determine las necesidades de personal presentes y futuras?
+    [pilar_6_c3_q3] P3: ¿Se incorporan las brechas de competencias, dotación de personal o capacidad identificadas en las decisiones de planificación de la fuerza laboral?
+    [pilar_6_c3_q4] P4: ¿Se supervisa y revisa periódicamente el avance en relación con la estrategia de GRH y el plan de personal ?
+  -- CRITERIO C4: Desarrollar e implementar un marco de gestión de recursos humanos y una arquitectura de puestos de trabajo basados en competencias. --
+    [pilar_6_c4_q1] P1: ¿Ha establecido la organización un marco formal de competencias que abarque las funciones y funciones más importantes?
+    [pilar_6_c4_q2] P2: ¿Las clasificaciones de puestos y las descripciones de puestos se basan en competencias definidas?
+    [pilar_6_c4_q3] P3: ¿Se utilizan las competencias en los procesos de contratación, capacitación, gestión del desempeño y desarrollo profesional?
+    [pilar_6_c4_q4] P4: ¿Se revisa y actualiza periódicamente el marco de competencias?
+  -- CRITERIO C5: Implementar procesos de contratación, selección e incorporación transparentes, basados en el mérito y en función de las competencias --
+    [pilar_6_c5_q1] P1: ¿Las vacantes se anuncian públicamente o se comunican mediante procesos de contratación transparentes?
+    [pilar_6_c5_q2] P2: ¿Se definen criterios de selección y métodos de evaluación antes de iniciar la contratación?
+    [pilar_6_c5_q3] P3: ¿Se toman las decisiones de selección y contratación basadas en el mérito y en competencias demostradas?
+    [pilar_6_c5_q4] P4: ¿Se llevan a cabo procedimientos de detección de integridad y verificación de referencias en su lugar adecuado?
+    [pilar_6_c5_q5] P5: ¿Completan los nuevos empleados un programa estructurado de inducción o incorporación antes del despliegue?
+  -- CRITERIO C6: Diseñar e implementar un sistema de aprendizaje y desarrollo del liderazgo basado en las necesidades --
+    [pilar_6_c6_q1] P1: ¿Se evalúan periódicamente las necesidades de capacitación y desarrollo a nivel de organización, unidad o individuo?
+    [pilar_6_c6_q2] P2: ¿Existe un plan de aprendizaje y desarrollo en función de las necesidades identificadas?
+    [pilar_6_c6_q3] P3: ¿Existen programas de desarrollo del liderazgo disponibles para gerentes actuales y futuros?
+    [pilar_6_c6_q4] P4: ¿Se evalúa la eficacia de la capacitación y se utiliza para mejorar las iniciativas de aprendizaje futuras?
+    [pilar_6_c6_q5] P5: ¿Se anima y apoya a los empleados a participar en actividades de aprendizaje continuo?
+  -- CRITERIO C7: Aplicar un sistema de gestión del desempeño transparente, meritocrático y basado en competencias --
+    [pilar_6_c7_q1] P1: ¿Emplea la organización un sistema formal de gestión del desempeño con objetivos e indicadores de desempeño definidos?
+    [pilar_6_c7_q2] P2: ¿Se les brinda a los empleados retroalimentación periódica sobre el desempeño durante todo el ciclo de evaluación?
+    [pilar_6_c7_q3] P3: ¿Las evaluaciones de desempeño se basan en resultados mensurables y competencias demostradas?
+    [pilar_6_c7_q4] P4: ¿Se usan los resultados de las evaluaciones del desempeño para identificar carencias de aptitudes y necesidades de desarrollo?
+    [pilar_6_c7_q5] P5: Cuando se detectan deficiencias en el desempeño, ¿se implementan las medidas correctivas y los planes de desarrollo?
+  -- CRITERIO C8: Implementar mecanismos de gestión de desarrollo profesional, movilidad, remuneración y retención de personas --
+    [pilar_6_c8_q1] P1: ¿Las decisiones de ascenso se basan en criterios transparentes y meritocráticos?
+    [pilar_6_c8_q2] P2: ¿Se definen claramente las carreras o oportunidades de progresión para los principales grupos de empleados?
+    [pilar_6_c8_q3] P3: ¿Se utilizan mecanismos de rotación o movilidad del personal para apoyar el desarrollo de los empleados y las necesidades organizativas?
+    [pilar_6_c8_q4] P4: ¿Se revisan periódicamente la remuneración, las prestaciones y las condiciones de trabajo para facilitar la contratación y retención?
+    [pilar_6_c8_q5] P5: ¿Se han adoptado medidas para identificar y retener al personal altamente eficaz o crítico?
+    [pilar_6_c8_q6] P6: ¿Promueven la gestión de la carrera y los mecanismos de retención de carreras la integridad, el profesionalismo y la motivación del personal?
+
+=== PILAR 7: 7. Control, Inteligencia y Lucha contra el Contrabando / Fraude ===
+  -- CRITERIO C1: Establecer un marco jurídico y de sanciones claro para combatir el contrabando --
+    [pilar_7_c1_q1] P1: ¿Define claramente el marco jurídico los delitos de contrabando y las sanciones administrativas o penales relacionadas?
+    [pilar_7_c1_q2] P2: ¿Están claramente establecidos en la ley o en la normativa las facultades aduaneras, las autoridades competentes y los mecanismos de remisión?
+    [pilar_7_c1_q3] P3: ¿Son las sanciones proporcionadas, oportunas y suficientemente disuasorias para abordar los delitos de contrabando?
+  -- CRITERIO C2: Aplicar procedimientos claros para la gestión de pruebas, la cadena de custodia, las incautaciones, el almacenamiento, la disposición y los expedientes de casos --
+    [pilar_7_c2_q1] P1: ¿Existen procedimientos documentados para la recopilación de pruebas y la gestión de la cadena de custodia?
+    [pilar_7_c2_q2] P2: ¿Se gestionan, almacenan y disponen de las mercancías incautadas según los procedimientos establecidos?
+    [pilar_7_c2_q3] P3: ¿Los archivos de casos se mantienen de tal forma que faciliten el enjuiciamiento y el seguimiento por parte de las autoridades competentes?
+  -- CRITERIO C3: Adoptar e implementar una estrategia contra el contrabando basada en la inteligencia y basada en el riesgo --
+    [pilar_7_c3_q1] P1: ¿Ha adoptado la Aduana formalmente una estrategia de prevención del contrabando acorde con los objetivos institucionales y las prioridades de gestión de riesgos?
+    [pilar_7_c3_q2] P2: ¿Define la estrategia objetivos, responsabilidades, recursos, prioridades, indicadores y mecanismos de supervisión?
+    [pilar_7_c3_q3] P3: ¿Se revisa y actualiza periódicamente la estrategia sobre la base de información de inteligencia y sobre riesgos?
+  -- CRITERIO C4: Definir la gobernanza y los mecanismos organizativos para las funciones de lucha contra el contrabando --
+    [pilar_7_c4_q1] P1: ¿Se asignan claramente las responsabilidades en materia de vigilancia, inteligencia, investigaciones y operaciones especiales?
+    [pilar_7_c4_q2] P2: ¿Se definen mecanismos de rendición de cuentas, coordinación y declaración de datos para las funciones de lucha contra el contrabando?
+    [pilar_7_c4_q3] P3: ¿Se establecen salvaguardias en materia de integridad y mecanismos de supervisión del desempeño para las unidades de prevención del contrabando?
+  -- CRITERIO C5: Realizar evaluaciones periódicas de las amenazas de contrabando y del riesgo --
+    [pilar_7_c5_q1] P1: ¿Se llevan a cabo evaluaciones periódicas para identificar amenazas, riesgos, rutas, métodos y actores de contrabando?
+    [pilar_7_c5_q2] P2: ¿Se cubren las evaluaciones de riesgos riesgos emergentes, como el comercio electrónico y los envíos de bajo valor?
+    [pilar_7_c5_q3] P3: ¿Se traducen los resultados de las evaluaciones en perfiles de riesgo, planes de control y prioridades de investigación?
+  -- CRITERIO C6: Institucionalizar un ciclo de inteligencia y un circuito de retroalimentación analítica. --
+    [pilar_7_c6_q1] P1: ¿Existe un ciclo de inteligencia formal para recopilar, analizar, difundir y evaluar información?
+    [pilar_7_c6_q2] P2: ¿Los productos de inteligencia se generan a partir de información proveniente de controles, incautaciones, investigaciones y fuentes externas?
+    [pilar_7_c6_q3] P3: ¿Se recopilan, gestionan y difunden información y productos de inteligencia en un sistema unificado?
+    [pilar_7_c6_q4] P4: ¿Se usan los resultados de la inteligencia para actualizar los criterios de selectividad, las actividades de supervisión y las investigaciones?
+  -- CRITERIO C7: Garantizar personal especializado, capacitación, certificación, herramientas y controles de integridad para fines de lucha contra el contrabando --
+    [pilar_7_c7_q1] P1: ¿Se asigna personal especializado a funciones de lucha contra el contrabando, como inteligencia, vigilancia e investigaciones?
+    [pilar_7_c7_q2] P2: ¿Recibe el personal capacitación y certificaciones periódicas relacionadas con las actividades de lucha contra el contrabando?
+    [pilar_7_c7_q3] P3: ¿Se aplican controles de integridad y salvaguardias anticorrupción a los funcionarios que cumplen funciones de lucha contra el contrabando?
+  -- CRITERIO C8: Proporcionar herramientas operativas y tecnológicas adecuadas para vigilancia, interdicción e investigación --
+    [pilar_7_c8_q1] P1: ¿Dispone la Aduana de herramientas operativas y tecnológicas adecuadas para promover las actividades de lucha contra el contrabando?
+    [pilar_7_c8_q2] P2: ¿Se despliegan y mantienen eficazmente las tecnologías de vigilancia e investigación?
+    [pilar_7_c8_q3] P3: ¿Se documenta y puede auditarse el uso de los recursos operativos?
+  -- CRITERIO C9: Implementar procedimientos de investigación y gestión de casos para casos de contrabando --
+    [pilar_7_c9_q1] P1: ¿Existen procedimientos documentados para gestionar investigaciones y expedientes de casos sobre contrabando?
+    [pilar_7_c9_q2] P2: ¿Se priorizan las investigaciones en función del riesgo, el impacto y los recursos disponibles?
+    [pilar_7_c9_q3] P3: ¿Se hace un seguimiento y seguimiento sistemáticos de los resultados de las investigaciones?
+  -- CRITERIO C10: Supervisar las localidades vulnerables y las mercancías bajo control aduanero mediante operaciones focalizadas --
+    [pilar_7_c10_q1] P1: ¿Están los almacenes, las zonas francas, las instalaciones de almacenamiento y otros lugares vulnerables sujetos a una supervisión específica?
+    [pilar_7_c10_q2] P2: ¿Se focalizan las actividades de control mediante el uso de inteligencia y análisis de riesgo?
+    [pilar_7_c10_q3] P3: ¿Se supervisan de manera eficaz los controles de existencias, la trazabilidad del movimiento y las obligaciones de informar?
+  -- CRITERIO C11: Establecer mecanismos formales de coordinación nacional e intercambio de información --
+    [pilar_7_c11_q1] P1: ¿Se han establecido mecanismos formales para el intercambio de información entre las aduanas y los socios nacionales de aplicación?
+    [pilar_7_c11_q2] P2: ¿Se mantienen activamente acuerdos interinstitucionales formales que exijan protocolos específicos de intercambio de datos, responsabilidades operativas conjuntas y salvaguardias de privacidad entre las unidades aduaneras, de aplicación y de inteligencia financiera?
+    [pilar_7_c11_q3] P3: ¿Se realiza el intercambio de información mediante interoperabilidad segura y automatizada entre sistemas (como una plataforma nacional de inteligencia) para eliminar las solicitudes de datos manuales o ad hoc?
+    [pilar_7_c11_q4] P4: ¿Disponen y promueven los mecanismos de coordinación actividades integradas y rutinarias como la tipificación de perfiles de riesgo interinstitucionales, la focalización compartida y controles conjuntos en los que participen todos los organismos en la frontera?
+    [pilar_7_c11_q5] P5: ¿Existe un círculo virtuoso de la gestión estructurado y basado en los resultados en el que se evalúen sistemáticamente los resultados operativos de la inteligencia compartida (por ejemplo, enjuiciamientos y incautaciones exitosas) para perfeccionar los modelos de riesgo y los indicadores estratégicos?
+  -- CRITERIO C12: Mantener la cooperación internacional, la asistencia administrativa recíproca y las redes de inteligencia aduanera --
+    [pilar_7_c12_q1] P1: ¿Participan las Aduanas en redes internacionales de información o inteligencia aduanera?
+    [pilar_7_c12_q2] P2: ¿Las solicitudes de asistencia internacional se intercambian y se actúan de manera eficaz?
+    [pilar_7_c12_q3] P3: ¿Apoya la cooperación internacional la acción contra envíos, rutas, operadores o redes de alto riesgo?
+    [pilar_7_c12_q4] P4: ¿Se gestionan activamente los acuerdos de asistencia administrativa recíproca y los accesos a la red internacional de inteligencia (p. ej., CEN de la OMA) y se usan de forma rutinaria por una unidad específica de inteligencia o gestión del riesgo?
+    [pilar_7_c12_q5] P5: ¿Se la inteligencia procesable (alertas, tipologías y objetivos) que se recibe de socios internacionales se traduce de forma sistemática y automática en perfiles de riesgo y criterios de selectividad dentro del sistema informático aduanero?
+    [pilar_7_c12_q6] P6: ¿Las solicitudes de asistencia internacional para la investigación e intercambio de información se gestionan mediante flujos de tareas digitales seguros y rastreables, en lugar de canales de comunicación informales y ad-hoc?
+    [pilar_7_c12_q7] P7: ¿La eficacia de la cooperación internacional se evalúa mediante indicadores clave de desempeño (KPI) específicos, como el porcentaje de controles exitosos o golpes a los ingresos derivados directamente de la inteligencia internacional?
+  -- CRITERIO C13: Implicar a los operadores logísticos y otras partes interesadas del sector privado y medir el desempeño en la lucha contra el contrabando. --
+    [pilar_7_c13_q1] P1: ¿Existen mecanismos eficaces para involucrar a los operadores logísticos y otras partes interesadas del sector privado con el fin de luchar contra el fraude?
+    [pilar_7_c13_q2] P2: ¿Se alienta a las partes interesadas a informar de actividades sospechosas y compartir la información pertinente?
+    [pilar_7_c13_q3] P3: ¿Se supervisan los indicadores de desempeño de la lucha contra el contrabando, que se utilizan para mejorar las operaciones y la estrategia?
+  -- CRITERIO C14: Establecer un marco integrado de prevención del contrabando y del fraude --
+    [pilar_7_c14_q1] P1: ¿Ha establecido la Aduana un marco que integre actividades de inteligencia, gestión del riesgo, controles, investigaciones y aplicación de la ley?
+    [pilar_7_c14_q2] P2: ¿Se abordan el marco tanto el contrabando físico como los fraudes relacionados con el comercio?
+    [pilar_7_c14_q3] P3: ¿Se coordinan las actividades de prevención del contrabando y el fraude en virtud de un enfoque integrado común basado en el riesgo?
+    [pilar_7_c14_q4] P4: ¿Cooperan activamente la prevención del contrabando y la gestión de riesgos para identificar y evaluar el contrabando en función del riesgo?
+    [pilar_7_c14_q5] P5: ¿Colaboran sistemáticamente las AS y la MR para cuantificar la magnitud del fraude, incluidas evasión de derechos, subvaluación, origen y regímenes especiales?
+    [pilar_7_c14_q6] P6: ¿Colaboran las AS y la MR para priorizar las intervenciones en función del grado de fraude y la pertinencia para los planes y los resultados estratégicos?
+  -- CRITERIO C15: Identificar, evaluar y abordar sistemáticamente los riesgos de contrabando y fraude relacionados con la recaudación --
+    [pilar_7_c15_q1] P1: ¿Identifica y evalúa sistemáticamente la Aduana los riesgos de contrabando y fraude relacionados con la recaudación?
+    [pilar_7_c15_q2] P2: ¿Se vigilan activamente riesgos como la subvaluación, la clasificación errónea, el origen fraudulento y el uso indebido de procedimientos especiales?
+    [pilar_7_c15_q3] P3: ¿Se implementan y examinan las medidas de mitigación para detectar los riesgos de recaudación?
+    [pilar_7_c15_q4] P4: ¿Cuentan la AS y la GR con sistemas y procedimientos para colaborar con los organismos de inteligencia financiera?
+    [pilar_7_c15_q5] P5: ¿Utilizan efectivamente las AS y la MR estos procedimientos para recibir regularmente información sobre flujos financieros ilegales?
+    [pilar_7_c15_q6] P6: ¿Utilizan información de agencias de inteligencia financiera para planificar intervenciones para perturbar los flujos financieros ilegales?
+    [pilar_7_c15_q7] P7: ¿Utilizan información de agencias de inteligencia financiera para actualizar los criterios de selectividad relacionados con importadores sospechosos de tener flujos financieros ilegales?
+
+=== PILAR 8: 8. Registro, Segmentación y Gestión de Operadores Económicos Clave (OEA) ===
+  -- CRITERIO C1: Marco jurídico y regulatorio --
+    [pilar_8_c1_q1] P1: ¿Existe un marco jurídico y regulatorio que defina qué operadores económicos e intermediarios aduaneros deben registrarse en la aduana?
+    [pilar_8_c1_q2] P2: ¿Los requisitos de inscripción y autorización son accesibles al público y están enmarcados en un lenguaje sencillo de forma que los no especialistas en aduanas puedan comprender fácilmente sus obligaciones?
+    [pilar_8_c1_q3] P3: ¿Se definen claramente en el marco las obligaciones y responsabilidades de los operadores y intermediarios aduaneros registrados?
+    [pilar_8_c1_q4] P4: ¿Exige el marco regulatorio que demuestren la tecnología y los sistemas necesarios para un intercambio fluido de datos con la infraestructura de TI de la aduana, en línea con su función específica en la trazabilidad de la carga de extremo a extremo?
+  -- CRITERIO C2: Identificación tributaria e interconexión entre la administración tributaria y la aduana --
+    [pilar_8_c2_q1] P1: ¿Se utiliza el número de identificación del contribuyente como identificador único para las operaciones de comercio exterior?
+    [pilar_8_c2_q2] P2: ¿Está el registro aduanero interconectado electrónicamente con el registro de contribuyentes?
+    [pilar_8_c2_q3] P3: ¿Se realizan automáticamente validaciones de identidad, estado y cumplimiento del contribuyente durante el registro o durante las actualizaciones?
+  -- CRITERIO C3: Plataforma de registro electrónico --
+    [pilar_8_c3_q1] P1: ¿La inscripción y autorización se gestiona a través de una plataforma electrónica?
+    [pilar_8_c3_q2] P2: ¿Admite la plataforma actualizaciones electrónicas, notificaciones y seguimiento de procesos?
+    [pilar_8_c3_q3] P3: ¿Puede la plataforma intercambiar información de manera segura con las autoridades tributarias y otras entidades pertinentes?
+  -- CRITERIO C4: Validaciones electrónicas y limpieza de registros --
+    [pilar_8_c4_q1] P1: ¿Se realizan validaciones electrónicas antes de aprobar los registros o autorizaciones?
+    [pilar_8_c4_q2] P2: ¿Los registros de los operadores se revisan y limpian periódicamente para eliminar información inexacta u obsoleta?
+    [pilar_8_c4_q3] P3: ¿Verifica la aduana electrónicamente la existencia legal, los representantes, el domicilio y la condición del contribuyente utilizando fuentes autorizadas?
+  -- CRITERIO C5: Marco de autorización para los mecanismos sujetos a control aduanero --
+    [pilar_8_c5_q1] P1: ¿Se establecen requisitos legales para las instalaciones que almacenan, guardan o gestionan mercancías bajo control aduanero, incluidos mandatos para infraestructura técnica que permitan la interoperabilidad electrónica y la ejecución automatizada de los procesos aduaneros?
+    [pilar_8_c5_q2] P2: ¿Los procedimientos de autorización, renovación, suspensión y revocación se definen formalmente y están diseñados para la ejecución totalmente electrónica y automatizada?
+    [pilar_8_c5_q3] P3: ¿Se especifican claramente las sanciones y otras obligaciones de cumplimiento para los operadores autorizados?
+  -- CRITERIO C6: Evaluación de riesgos antes de la autorización --
+    [pilar_8_c6_q1] P1: ¿Se han establecido formalmente criterios y procedimientos para realizar evaluaciones previas de riesgos y controles de idoneidad de las instalaciones solicitantes y de los operadores económicos antes de otorgar o renovar las autorizaciones?
+    [pilar_8_c6_q2] P2: ¿Los antecedentes de cumplimiento tributario y aduanero de los solicitantes se cotejan automáticamente con los registros de la administración tributaria durante el proceso de evaluación de autorización y renovación?
+    [pilar_8_c6_q3] P3: ¿Incorporan sistemáticamente las evaluaciones de idoneidad criterios automatizados de riesgo que abarquen la solvencia financiera, las estructuras de propiedad efectiva y los controles de seguridad/inventario físico?
+    [pilar_8_c6_q4] P4: ¿La renovación de las autorizaciones de los operadores se basa en el riesgo mediante una supervisión automática y continua basada en el riesgo, en lugar de basarse en exámenes estáticos o puntuales?
+  -- CRITERIO C7: Rendición de cuentas por las mercancías sujetas a control aduanero --
+    [pilar_8_c7_q1] P1: ¿Deben los operadores rendir cuentas legalmente por las mercancías bajo su custodia mientras están bajo control aduanero?
+    [pilar_8_c7_q2] P2: ¿Todos los operadores deben llevar registros electrónicos que garanticen una trazabilidad detallada de los movimientos de mercancías?
+    [pilar_8_c7_q3] P3: ¿Los operadores deben informar oportunamente a la aduana sobre pérdidas, escasez, irregularidades o incidentes de seguridad por medios electrónicos?
+  -- CRITERIO C8: Controles de inventarios y supervisión aduanera --
+    [pilar_8_c8_q1] P1: ¿Mantienen los operadores sistemas electrónicos de inventario que puedan ser examinados por la aduana?
+    [pilar_8_c8_q2] P2: ¿Concilian las aduanas los registros de inventario con las declaraciones, manifiestos u otros datos aduaneros?
+    [pilar_8_c8_q3] P3: ¿Lleva a cabo la aduana un sistema de vigilancia, inspecciones, auditorías o exámenes de autorización basado en los riesgos de estos operadores?
+  -- CRITERIO C9: Las normas sobre el uso de despachantes de aduana son transparentes y coherentes con los compromisos de facilitación del comercio --
+    [pilar_8_c9_q1] P1: ¿Se publican, son de fácil acceso accesibles y se actualizan periódicamente las normas, condiciones y procedimientos relativos a los despachantes de aduana?
+    [pilar_8_c9_q2] P2: ¿Son coherentes las normas con los compromisos de facilitación del comercio, garantizando que se evite el uso obligatorio de corredores cuando los operadores optan por la representación directa?
+    [pilar_8_c9_q3] P3: ¿Establece el marco regulatorio obligaciones legales explícitas para que los despachantes de aduana adopten y utilicen plataformas aduaneras digitales modernas y los procedimientos electrónicos?
+  -- CRITERIO C10: Aplicar requisitos transparentes en materia de licencias, autorizaciones y competencia para los despachantes de aduana --
+    [pilar_8_c10_q1] P1: ¿Los requisitos para obtener licencias para despachantes de aduana son transparentes, objetivos y se basan en la competencia técnica demostrada, los exámenes profesionales y los controles de integridad?
+    [pilar_8_c10_q2] P2: ¿Existen requisitos formales de desarrollo profesional continuo o de mantenimiento periódico de competencias para los corredores activos?
+    [pilar_8_c10_q3] P3: ¿Puede los importadores/exportadores otorgar, verificar, dar cobertura o revocar autorizaciones de despachantes directamente dentro de la plataforma de software de aduanas?
+  -- CRITERIO C11: Obligaciones de los despachantes de aduana y rendición de cuentas --
+    [pilar_8_c11_q1] P1: ¿Los despachantes de aduana están obligados por ley a realizar procesos de identificación de los clientes y realizar procedimientos de diligencia debida, así como conservar la documentación de respaldo de todas las transacciones representadas?
+    [pilar_8_c11_q2] P2: ¿Se definen y aplican sanciones administrativas y monetarias claras y proporcionadas—incluidos motivos de suspensión y revocación— en caso de incumplimiento de los corredores.
+    [pilar_8_c11_q3] P3: ¿Están establecidas y son aplicables las salvaguardias legales explícitas frente al conflicto de intereses —como un Código de Ética específico que impida a los corredores actuar como importadores de mercancías competidoras?
+    [pilar_8_c11_q4] P4: ¿Los despachantes de aduana están obligados a cooperar con la aduana y notificar las sospechas de irregularidad?
+  -- CRITERIO C12: Supervisión basada en los riesgos de los despachantes de aduana --
+    [pilar_8_c12_q1] P1: ¿Lleva el sistema aduanero pistas de auditoría y expedientes electrónicos de casos para supervisar en tiempo real el comportamiento de los corredores, las tasas de error y las tendencias de cumplimiento?
+    [pilar_8_c12_q2] P2: ¿Se elaboran sistemáticamente perfiles basados en el riesgo para activar fiscalizaciones, inspecciones o exámenes específicos de operaciones de despachantes de aduana de alto riesgo?
+    [pilar_8_c12_q3] P3: ¿Se evalúan periódicamente los indicadores de desempeño de los corredores para proporcionar retroalimentación estructurada, exigir planes de medidas correctivas o ajustar las calificaciones de riesgo de los corredores?
+
+=== PILAR 9: 9. Gestión de la Carga, Manifiestos y Trazabilidad ===
+  -- CRITERIO C1: Establecer un marco jurídico y de procedimiento claro para la gestión de la carga --
+    [pilar_9_c1_q1] P1: ¿Ha establecido la administración aduanera un marco jurídico que defina las obligaciones de los operadores de carga y las partes interesadas en logística?
+    [pilar_9_c1_q2] P2: ¿Se documentan los procedimientos estandarizados para las actividades clave de gestión de la carga?
+    [pilar_9_c1_q3] P3: ¿Se definen y son factibles aplicar claramente las sanciones por incumplimiento relacionado con la gestión de la carga?
+  -- CRITERIO C2: Exigir información electrónica anticipada, completa y estandarizada. --
+    [pilar_9_c2_q1] P1: ¿Se necesita información electrónica anticipada sobre la carga antes de la llegada o el movimiento?
+    [pilar_9_c2_q2] P2: ¿Se definen campos de datos obligatorios y plazos para la presentación de información sobre la carga?
+    [pilar_9_c2_q3] P3: ¿Se usan validaciones automatizadas para verificar la integridad y calidad de la información presentada?
+  -- CRITERIO C3: Garantizar la interoperabilidad entre aduanas, operadores y servicios fronterizos --
+    [pilar_9_c3_q1] P1: ¿Intercambia la aduana información por medios electrónicos con los principales operadores logísticos y las agencias fronterizas?
+    [pilar_9_c3_q2] P2: ¿Se usan normas de datos comunes en sistemas conectados?
+    [pilar_9_c3_q3] P3: ¿Existen mecanismos seguros para el intercambio electrónico de información?
+    [pilar_9_c3_q4] P4: ¿Se realizan automáticamente cruces y conciliaciones electrónicas entre la aduana y los datos de sistemas externos sobre los movimientos de carga?
+  -- CRITERIO C4: Implementar trazabilidad de extremo a extremo de la carga --
+    [pilar_9_c4_q1] P1: ¿Los documentos de transporte (incluidos los conocimientos de embarque y las facturas de vuelo electrónico) se digitalizan y procesan electrónicamente sin necesidad de registros físicos?
+    [pilar_9_c4_q2] P2: ¿Los manifiestos, declaraciones de impuestos y listas de baja/descarga se concilian automáticamente en el sistema, sin que los oficiales tengan que hacer una comparación física manual?
+    [pilar_9_c4_q3] P3: ¿Vincula el sistema aduanero manifiestos, declaraciones y registros de levante mediante identificadores comunes en módulos de software conectados?
+    [pilar_9_c4_q4] P4: ¿Mantiene el sistema una trazabilidad continua de las unidades de transporte físico mediante el seguimiento automático de los números de contenedor, los identificadores de vehículos y el estado de los sellos electrónicos entre los distintos movimientos?
+    [pilar_9_c4_q5] P5: ¿Los movimientos de tránsito, las entradas de depósito y los regímenes especiales se cierran y descargan automáticamente en el sistema al llegar verificados, reexportarlos o levantarse?
+  -- CRITERIO C5: Automatizar validaciones y comprobaciones cruzadas de datos a lo largo del ciclo de control de la carga --
+    [pilar_9_c5_q1] P1: ¿Se realizan validaciones automatizadas de la información sobre el movimiento de la carga?
+    [pilar_9_c5_q2] P2: ¿Se usan comprobaciones cruzadas de datos eléctricos para detectar incoherencias o anomalías en los registros de carga?
+    [pilar_9_c5_q3] P3: ¿Las discrepancias detectadas se informan sistemáticamente o se derivan para medidas de seguimiento?
+  -- CRITERIO C6: Inventarios de control en almacenes, zonas francas y otros operadores de regímenes especiales --
+    [pilar_9_c6_q1] P1: ¿Los movimientos y saldos de existencias se notifican a la aduana mediante sistemas electrónicos de inventario?
+    [pilar_9_c6_q2] P2: ¿Tiene la aduana visibilidad oportuna o en tiempo real de los inventarios que se encuentran bajo el control de la aduana?
+    [pilar_9_c6_q3] P3: ¿Se registran, calculan, supervisan y ejecutan sistemáticamente las garantías financieras electrónicas (bonos) en tiempo real para cubrir posibles pasivos de ingresos en los almacenes y los regímenes especiales?
+    [pilar_9_c6_q4] P4: ¿Están oficialmente definidos y exigidos por ley para los operadores de almacenes, requisitos oficiales de declaración de existencias, reglas de conciliación de existencias y protocolos de rendición de cuentas?
+  -- CRITERIO C7: Aplicar una supervisión basada en el riesgo a inventarios, instalaciones y operaciones logísticas --
+    [pilar_9_c7_q1] P1: ¿Se utiliza el análisis de riesgos para establecer prioridades de actividades de supervisión e inspección?
+    [pilar_9_c7_q2] P2: ¿Se diferencia entre operadores, mercancías, rutas, instalaciones y regímenes en función de los niveles de riesgo?
+    [pilar_9_c7_q3] P3: ¿La supervisión se centra en áreas que presentan mayores riesgos o patrones de incumplimiento?
+    [pilar_9_c7_q4] P4: ¿Se emplean y se administran electrónicamente los bonos electrónicos para salvaguardar los ingresos aduaneros asociados con el tránsito y otras operaciones aduaneras?
+  -- CRITERIO C8: Fortalecer el control de las operaciones de tránsito nacional e internacional --
+    [pilar_9_c8_q1] P1: ¿Se usan sellos electrónicos o controles equivalentes para el tránsito y operaciones aduaneras similares?
+    [pilar_9_c8_q2] P2: ¿Se supervisan electrónicamente las rutas de tránsito, los plazos y las llegadas?
+    [pilar_9_c8_q3] P3: ¿Se generan e investigan alertas cuando se producen desviaciones en el tránsito o vulneraciones de la integridad?
+  -- CRITERIO C9: Adoptar tecnologías integradas con los sistemas aduaneros para respaldar el control de la carga en tiempo real --
+    [pilar_9_c9_q1] P1: ¿Se despliegan sistemáticamente tecnologías de escaneo óptico (códigos de barra/códigos QR) y lectores automatizados de matrículas o contenedores (ANPR/ACR) en todos los puntos principales de control operativo?
+    [pilar_9_c9_q2] P2: ¿Se incorporan directamente los puentes de pesaje, los sensores IoT o los dispositivos inteligentes de seguimiento en la plataforma de software de la aduana para verificar automáticamente las ponderaciones y detectar anomalías?
+    [pilar_9_c9_q3] P3: ¿Se despliegan controles de seguridad física, como sellos electrónicos y/o cámaras de circuito cerrado (CCTV) para instalaciones autorizadas, con vigilancia activa durante los movimientos de carga?
+    [pilar_9_c9_q4] P4: ¿Las tecnologías desplegadas de inspección y vigilancia ingresan automáticamente datos y alertas en la plataforma de software de la aduana sin que los funcionarios tengan que proceder a reintroducir los datos manualmente?
+    [pilar_9_c9_q5] P5: ¿Se definen formalmente procedimientos operativos estándar (POE), protocolos de datos y marcos de mantenimiento técnico para regular el uso operativo y el mantenimiento de las tecnologías desplegadas?
+  -- CRITERIO C10: Medir el desempeño de la gestión de carga y usar los resultados para mejorar de manera continua. --
+    [pilar_9_c10_q1] P1: ¿Se definen indicadores para medir la trazabilidad de la carga, el desempeño en tránsito, la exactitud de los inventarios, las alertas y los resultados de los controles?
+    [pilar_9_c10_q2] P2: ¿Se lleva a cabo un seguimiento y examen periódico de los indicadores de desempeño de la gestión de la carga?
+    [pilar_9_c10_q3] P3: ¿Se usan los resultados de desempeño para mejorar los procesos y controles de gestión de la carga?
+
+=== PILAR 10: 10. Proceso de Despacho Aduanero y Facilitación del Comercio ===
+  -- CRITERIO C1: Publicar y actualizar periódicamente los requisitos aduaneros y los canales de apoyo a los operadores --
+    [pilar_10_c1_q1] P1: ¿Los requisitos, procedimientos, tasas, estándares de servicio, puntos de consulta y mecanismos de examen o apelación se publican en un lenguaje claro y accesible?
+    [pilar_10_c1_q2] P2: ¿Se revisa y actualiza periódicamente la información mediante un proceso definido?
+    [pilar_10_c1_q3] P3: ¿Están disponibles canales de apoyo a los operadores, que se utilizan para aclarar requisitos y resolver consultas?
+  -- CRITERIO C2: Proporcionar resoluciones anticipadas, orientación administrativa y trato justo a los operadores. --
+    [pilar_10_c2_q1] P1: ¿Están disponibles, se documentan y emiten resoluciones preliminares y directrices administrativas en plazos definidos?
+    [pilar_10_c2_q2] P2: ¿Se aplican sanciones de forma transparente y proporcionada?
+    [pilar_10_c2_q3] P3: ¿Son los procedimientos de examen y apelación transparentes, puntuales e independientes?
+  -- CRITERIO C3: Establecer procedimientos simplificados y previos al arribo para las mercancías de bajo riesgo y los operadores de confianza. --
+    [pilar_10_c3_q1] P1: ¿Existen procedimientos simplificados y previos al arribo para las mercancías de bajo riesgo y los operadores de confianza?
+    [pilar_10_c3_q2] P2: ¿Puede presentarse, validarse y procesarse información antes de la llegada de las mercancías?
+    [pilar_10_c3_q3] P3: ¿Permiten estos procedimientos un levante oportuno y reducen las formalidades innecesarias para operaciones de bajo riesgo?
+  -- CRITERIO C4: Aplicar un único análisis coordinado de riesgos y selectividad durante el despacho --
+    [pilar_10_c4_q1] P1: ¿El análisis de riesgo y selectividad durante el despacho se lleva a cabo mediante un proceso coordinado?
+    [pilar_10_c4_q2] P2: ¿Los tratamientos de despacho se basan en el riesgo identificado y la capacidad operativa disponible?
+    [pilar_10_c4_q3] P3: ¿Existen salvaguardias para evitar evaluaciones duplicadas o derivaciones reiteradas?
+  -- CRITERIO C5: Asegurar que el laboratorio de aduana apoye el muestreo basado en riesgos --
+    [pilar_10_c5_q1] P1: ¿Ayuda el laboratorio de aduana a identificar las mercancías sensibles o difíciles de clasificar?
+    [pilar_10_c5_q2] P2: ¿Se utilizan criterios objetivos basados en el riesgo para determinar cuándo deben tomarse las muestras?
+    [pilar_10_c5_q3] P3: ¿Se usan los resultados de laboratorio para mejorar la clasificación, los criterios de riesgo y los controles futuros?
+  -- CRITERIO C6: Mantener un perfil de cumplimiento de 360 grados para cada importador y exportador --
+    [pilar_10_c6_q1] P1: ¿Mantiene la aduana un perfil de cumplimiento consolidado para cada importador y exportador?
+    [pilar_10_c6_q2] P2: ¿Incluye el perfil las operaciones históricas, códigos del SA, valores declarados, despachantes utilizados, regímenes aduaneros, situación tributaria, antecedentes de cumplimiento, resultados de control, determinaciones de auditoría, pagos y reintegros?
+    [pilar_10_c6_q3] P3: ¿Se utiliza el perfil para análisis de riesgo, segmentación, selectividad y tratamiento diferenciado?
+  -- CRITERIO C7: Registrar los resultados de las inspecciones documentales y físicas en un formato estructurado --
+    [pilar_10_c7_q1] P1: ¿Los resultados de inspecciones documentales y físicas se registran en un formato estructurado y susceptible de análisis?
+    [pilar_10_c7_q2] P2: ¿Identifica el registro información relevante, como tipo de riesgo, operador, mercancías, canal de selectividad, punto de control y resultados?
+    [pilar_10_c7_q3] P3: ¿Se usan los resultados de las inspecciones para actualizar perfiles de riesgo, criterios de selectividad y reglas?
+  -- CRITERIO C8: Garantizar la interoperabilidad y coordinación con otros organismos fronterizos --
+    [pilar_10_c8_q1] P1: ¿Los permisos, certificados, licencias, autorizaciones, decisiones e información sobre riesgos se intercambian electrónicamente con otros organismos fronterizos?
+    [pilar_10_c8_q2] P2: ¿Los requisitos de otras agencias se validan electrónicamente en el marco del proceso de autorización?
+    [pilar_10_c8_q3] P3: ¿Se coordinan las inspecciones o intervenciones para evitar duplicaciones y demoras innecesarias?
+  -- CRITERIO C9: Automatizar las etapas principales de despacho --
+    [pilar_10_c9_q1] P1: ¿Se realizan intercambios electrónicos de permisos, certificados, permisos y autorizaciones entre la Aduana y los organismos competentes?
+    [pilar_10_c9_q2] P2: ¿Los permisos, certificados, licencias y autorizaciones se validan automáticamente durante el despacho?
+    [pilar_10_c9_q3] P3: ¿Existen mecanismos de inspecciones conjuntas o coordinadas cuando participan varios organismos?
+  -- CRITERIO C10: Estandarizar procedimientos, formularios, criterios de inspección y decisiones operacionales --
+    [pilar_10_c10_q1] P1: ¿Se presentan, validan y procesan las declaraciones y los documentos justificativos siguiendo criterios y mecanismos normalizados?
+    [pilar_10_c10_q2] P2: ¿Están integrados en el sistema electrónico de despacho el pago, la autorización de levante y el levante de mercancías?
+    [pilar_10_c10_q3] P3: ¿Proporciona el sistema suficiente trazabilidad de las decisiones, las intervenciones y los plazos de autorización?
+  -- CRITERIO C11: Uso de indicadores periódicos de desempeño --
+    [pilar_10_c11_q1] P1: ¿Se usan indicadores periódicos para controlar los horarios de levante, las tasas de inspección, los resultados de los controles, la carga de trabajo, el procesamiento previo a la llegada, la recaudación de ingresos, las intervenciones de organismos, las normas de servicio y los tiempos de resolución de controversias?
+    [pilar_10_c11_q2] P2: ¿Tienen los indicadores fuentes de datos, frecuencia de presentación de informes y unidades responsables definidas?
+    [pilar_10_c11_q3] P3: ¿Se usan los resultados para evaluar el desempeño, identificar cuellos de botella y respaldar la toma de decisiones fundamentadas?
+  -- CRITERIO C12: Mantener mecanismos regulares y estructurados de coordinación, consulta y seguimiento con las principales partes interesadas --
+    [pilar_10_c12_q1] P1: ¿Existen mecanismos de coordinación y consulta regulares y estructurados con operadores, corredores, operadores logísticos, otros organismos y partes interesadas?
+    [pilar_10_c12_q2] P2: ¿Sirven estos mecanismos para identificar de manera proactiva los cuellos de botella, aclarar los requisitos, coordinar intervenciones y mejorar los procedimientos de despacho?
+    [pilar_10_c12_q3] P3: ¿Se documentan y supervisan los acuerdos, las responsabilidades, los plazos y las acciones de seguimiento?
+
+=== PILAR 11: 11. Análisis de Riesgos, Selectividad y Perfilamiento Automatizado ===
+  -- CRITERIO C1: Establecer disposiciones institucionales y de gobernanza para el perfil de riesgo y el análisis --
+    [pilar_11_c1_q1] P1: ¿Existe una única función de gestión de riesgos especializada independiente de las áreas operativas?
+    [pilar_11_c1_q2] P2: ¿Tiene esta función un mandato claro para la determinación de perfiles de riesgo, el análisis, la selección y la selectividad?
+    [pilar_11_c1_q3] P3: ¿Los procedimientos y los mecanismos de supervisión están documentados y se aplican periódicamente?
+  -- CRITERIO C2: Garantizar datos fiables, oportunos e interoperables para el análisis de riesgos --
+    [pilar_11_c2_q1] P1: ¿Integra la administración la información electrónica anticipada y declarada al análisis de riesgos?
+    [pilar_11_c2_q2] P2: ¿Utiliza el análisis de riesgos los resultados de control, inteligencia, historial de cumplimiento y fuentes de datos internos y externos relevantes?
+    [pilar_11_c2_q3] P3: ¿Son los datos utilizados para el análisis de riesgos fiables, oportunos e interoperables?
+  -- CRITERIO C3: Detectar patrones de riesgo, anomalías y amenazas emergentes mediante técnicas y herramientas de análisis de datos. --
+    [pilar_11_c3_q1] P1: ¿Emplea la administración técnicas de análisis de datos para detectar patrones y anomalías de riesgo?
+    [pilar_11_c3_q2] P2: ¿Emplea la administración herramientas como la cotejación de datos, el análisis de tendencias, la detección de anomalías, la modelización predictiva, el análisis de redes o la visualización?
+    [pilar_11_c3_q3] P3: ¿Se identifican las amenazas emergentes mediante análisis sistemáticos?
+  -- CRITERIO C4: Desarrollar, someter a prueba, validar y actualizar perfiles, normas y criterios de selectividad basados en información e inteligencia --
+    [pilar_11_c4_q1] P1: ¿Se desarrollan, prueban, validan y actualizan sistemáticamente los perfiles de riesgo, las reglas y los criterios de selectividad siguiendo una metodología clara y bien documentada?
+    [pilar_11_c4_q2] P2: ¿Los perfiles de riesgo y las reglas se basan en criterios objetivos, documentados y rastreables?
+    [pilar_11_c4_q3] P3: ¿Se aplican tratamientos de los riesgos de manera uniforme en todos los puntos de control, modos de transporte, segmentos de la cadena de suministro y paso del tiempo?
+  -- CRITERIO C5: Configurar perfiles de riesgo, reglas y criterios de selectividad directamente en el sistema de TI de la aduana --
+    [pilar_11_c5_q1] P1: ¿Puede el personal autorizado de gestión de riesgos configurar perfiles, reglas y criterios de selectividad directamente en el sistema de TI de la aduana?
+    [pilar_11_c5_q2] P2: ¿Puede el personal autorizado crear, aplicar, actualizar, validar y supervisar reglas sobre riesgos sin apoyo de TI?
+    [pilar_11_c5_q3] P3: ¿Se mantienen mecanismos de gobernanza y pistas de auditoría para los cambios en las reglas de riesgo?
+    [pilar_11_c5_q4] P4: Los operadores de segmentos utilizan una metodología coherente para aplicar medidas de tratamiento adaptadas a las circunstancias
+    [pilar_11_c5_q5] P5: ¿Segmenta la administración a los operadores una metodología coherente?
+    [pilar_11_c5_q6] P6: ¿Las medidas de tratamiento se adaptan en función del riesgo, el nivel de cumplimiento, el tamaño, el sector, el código del SA u otros factores pertinentes?
+    [pilar_11_c5_q7] P7: ¿Se facilitan los casos de menor riesgo y los casos de mayor riesgo se someten a controles proporcionados?
+  -- CRITERIO C6: Monitorear y utilizar los resultados de los controles y los resultados de la retroalimentación --
+    [pilar_11_c6_q1] P1: ¿Se llevan a cabo un seguimiento de los resultados de los controles de verificaciones de documentos, inspecciones físicas e investigaciones?
+    [pilar_11_c6_q2] P2: ¿Se usan los resultados de los controles y la retroalimentación para mejorar los perfiles de riesgo, las normas y las medidas de tratamiento?
+  -- CRITERIO C7: Medir el desempeño y fortalecer la capacidad de análisis del riesgo --
+    [pilar_11_c7_q1] P1: ¿Realiza la administración un seguimiento del desempeño de los perfiles de riesgo y del sistema de selectividad mediante indicadores clave?
+    [pilar_11_c7_q2] P2: ¿Se realizan un seguimiento de indicadores como la tasa de acerto, la cobertura, los falsos positivos, los reincidentes y los resultados de los controles por tipo de riesgo y tendencia?
+    [pilar_11_c7_q3] P3: ¿Se usan los resultados de desempeño para reforzar la capacidad de análisis de riesgos?
+
+=== PILAR 12: 12. Regímenes Aduaneros Especiales y Zonas Francas ===
+  -- CRITERIO C1: Establecer un marco jurídico y regulatorio claro para cada régimen --
+    [pilar_12_c1_q1] P1: ¿Existe un marco jurídico y regulatorio que defina el alcance, los criterios de elegibilidad y las ventajas de cada régimen especial?
+    [pilar_12_c1_q2] P2: ¿Están claramente definidas las obligaciones, garantías, plazos, condiciones de liberación y reglas de rescisión para cada régimen?
+    [pilar_12_c1_q3] P3: ¿Se establecen sanciones, procedimientos de recurso y derechos de apelación que se comunican a los beneficiarios?
+  -- CRITERIO C2: Mantienen registros y autorizaciones electrónicos fiables para beneficiarios, operadores, instalaciones, actividades, mercancías y prestaciones. --
+    [pilar_12_c2_q1] P1: ¿Se llevan registros electrónicos de beneficiarios, operadores, locales y actividades autorizadas en el marco de cada régimen?
+    [pilar_12_c2_q2] P2: ¿Las autorizaciones se emiten, actualizan y gestionan electrónicamente?
+    [pilar_12_c2_q3] P3: ¿Los datos del registro se validan con los registros de las autoridades fiscales, de licencias, de inversión o de autoridad regulatoria?
+    [pilar_12_c2_q4] P4: ¿Los registros electrónicos identifican las mercancías autorizadas por código SA, descripción, cantidad, origen, valor y beneficio aplicable?
+  -- CRITERIO C3: Incluir los regímenes especiales en el marco institucional de gestión de riesgos y segmentar a los beneficiarios según el nivel de riesgo --
+    [pilar_12_c3_q1] P1: ¿Se incluyen formalmente regímenes especiales en el marco de gestión de riesgos aduaneros?
+    [pilar_12_c3_q2] P2: ¿Los beneficiarios se segmentan en función de los niveles de riesgo?
+    [pilar_12_c3_q3] P3: ¿Se aplican evaluaciones de riesgo a solicitudes, renovaciones y operaciones en curso?
+    [pilar_12_c3_q4] P4: ¿Se diferencian las medidas de facilitación según el nivel de riesgo?
+  -- CRITERIO C4: Exigir informes electrónicos estructurados, controles contables y de inventario supervisados por la aduana y conciliaciones automatizadas. --
+    [pilar_12_c4_q1] P1: ¿Los beneficiarios deben presentar informes electrónicos estructurados a la aduana?
+    [pilar_12_c4_q2] P2: ¿Están los sistemas de inventario y contabilidad sujetos a la supervisión aduanera?
+    [pilar_12_c4_q3] P3: ¿Los sistemas de inventario y contabilidad deben interoperar con el sistema de TI de la aduana?
+    [pilar_12_c4_q4] P4: ¿Se usan controles automáticos de conciliación para detectar discrepancias en inventarios, pasivos, prestaciones o cancelaciones de regímenes?
+    [pilar_12_c4_q5] P5: ¿Pueden la aduana vigilar electrónicamente los ingresos perdidos, las garantías, pasivos y las irregularidades detectadas?
+  -- CRITERIO C5: Aplicar medidas de aplicación proporcionadas y garantizar la coordinación, el intercambio de información y la capacidad especializada. --
+    [pilar_12_c5_q1] P1: ¿Están disponibles y se aplican sanciones, suspensiones, revocaciones, recuperaciones y mecanismos de ejecución de garantías cuando corresponde?
+    [pilar_12_c5_q2] P2: ¿Intercambian las aduanas información con las autoridades fiscales, de inversión, de zonas francas, de habilitaciones y otras instancias?
+    [pilar_12_c5_q3] P3: ¿Se brinda al personal responsable de la gestión de los regímenes especiales capacitación y asesoramiento especializados?
+  -- CRITERIO C6: Garantizar el acceso de las autoridades aduaneras y a los datos en las zonas francas, las zonas económicas especiales, las zonas bajo control aduanero y otros mecanismos similares --
+    [pilar_12_c6_q1] P1: ¿Tiene la aduana autoridad jurídica para supervisar e inspeccionar las zonas francas, las zonas económicas especiales, las zonas francas y otros mecanismos similares?
+    [pilar_12_c6_q2] P2: ¿Tiene la aduana acceso a los datos operativos y de inventario de estos centros?
+    [pilar_12_c6_q3] P3: ¿Están claramente definidas y operacionalizadas las responsabilidades de la supervisión aduanera?
+  -- CRITERIO C7: Mantener la trazabilidad de extremo a extremo y la conciliación de las mercancías y las operaciones, lo que incluye la utilización de la tecnología --
+    [pilar_12_c7_q1] P1: ¿Puede la aduana rastrear las mercancías electrónicamente durante todo su ciclo de vida con este régimen?
+    [pilar_12_c7_q2] P2: ¿Los movimientos de bienes y las operaciones del régimen se concilian con las existencias y los registros contables?
+    [pilar_12_c7_q3] P3: ¿Se utiliza la tecnología moderna para facilitar la trazabilidad, el seguimiento y la conciliación de bienes y operaciones?
+  -- CRITERIO C8: Exigir seguridad física, controles en las instalaciones y el intercambio electrónico de datos para las instalaciones autorizadas --
+    [pilar_12_c8_q1] P1: ¿Se establecen controles de acceso, medidas de vigilancia y otros requisitos de seguridad física para las instalaciones autorizadas?
+    [pilar_12_c8_q2] P2: ¿Las mercancías están segregadas de acuerdo con la situación aduanera y están disponibles para su inspección cuando es necesario?
+    [pilar_12_c8_q3] P3: ¿Se intercambian datos electrónicos entre instalaciones autorizadas y autoridades competentes?
+    [pilar_12_c8_q4] P4: ¿Se conservan los registros y se ponen a disposición de la aduana cuando se solicitan?
+  -- CRITERIO C9: Vigilar las exenciones e importaciones temporales para garantizar el cumplimiento de las condiciones --
+    [pilar_12_c9_q1] P1: ¿Verifica la aduana el cumplimiento de las condiciones aplicables a las exenciones y las importaciones temporales por medios electrónicos?
+    [pilar_12_c9_q2] P2: ¿Se llevan a cabo controles para verificar el correcto uso, disposición o reexportación de bienes que reciben exenciones o beneficios de admisión temporal?
+    [pilar_12_c9_q3] P3: ¿Se adoptan medidas de ejecución cuando se detecta el incumplimiento de la exención o las condiciones de admisión temporal?
+
+=== PILAR 13: 13. Comercio Electrónico Transfronterizo y Plataformas Digitales ===
+  -- CRITERIO C1: Marco jurídico y de procedimiento diferenciado para el comercio electrónico transfronterizo --
+    [pilar_13_c1_q1] P1: ¿Ha establecido la administración de aduanas un marco jurídico y de procedimiento específico para el comercio electrónico transfronterizo?
+    [pilar_13_c1_q2] P2: ¿Define el marco los tipos de transacciones, los umbrales de valor y los criterios de admisibilidad para procedimientos simplificados?
+    [pilar_13_c1_q3] P3: ¿Se abordan claramente el marco el tratamiento tributario, los reembolsos, las modificaciones y las consignaciones de bajo valor?
+  -- CRITERIO C2: Responsabilidades respecto de plataformas, vendedores, operadores postales, transportistas, proveedores logísticos, proveedores de pagos e intermediarios. --
+    [pilar_13_c2_q1] P1: ¿Las responsabilidades de los principales actores del comercio electrónico se definen formalmente en leyes, reglamentos o procedimientos operativos?
+    [pilar_13_c2_q2] P2: ¿Se imponen claramente a los actores pertinentes los requisitos de presentación anticipada de datos, mantenimiento de registros y corrección de datos?
+    [pilar_13_c2_q3] P3: ¿Están claramente establecidas las obligaciones de cooperación con la aduana y, cuando corresponda, la recaudación de derechos y impuestos?
+  -- CRITERIO C3: Requisitos anticipados de datos --
+    [pilar_13_c3_q1] P1: ¿Se necesitan datos electrónicos anticipados antes del arribo o el levante de envíos de comercio electrónico?
+    [pilar_13_c3_q2] P2: ¿Los requisitos de datos anticipados cubren compradores, vendedores, descripciones de las mercancías, valores, cantidades, orígenes e información sobre el transporte?
+    [pilar_13_c3_q3] P3: ¿Se implementan y supervisan mecanismos de calidad, validación, corrección y retroalimentación de los datos?
+  -- CRITERIO C4: Mecanismos de determinación de derechos arancelarios e impositivos, recaudación y remesas --
+    [pilar_13_c4_q1] P1: ¿Los derechos e impuestos sobre las consignaciones de comercio electrónico se evalúan mediante procedimientos claros y estandarizadas?
+    [pilar_13_c4_q2] P2: ¿Se utilizan mecanismos digitales para apoyar la liquidación, recaudación, remisión o ajuste de derechos e impuestos?
+    [pilar_13_c4_q3] P3: ¿Se definen y operacionalizan claramente las funciones de los actores pertinentes de la cadena de suministro en la recaudación de derechos de aduana y impuestos?
+  -- CRITERIO C5: Selectividad basada en el riesgo y análisis de datos --
+    [pilar_13_c5_q1] P1: ¿Utiliza la administración de aduanas datos anticipados y perfiles de riesgo para identificar las consignaciones de comercio electrónico de mayor riesgo?
+    [pilar_13_c5_q2] P2: ¿Se incorporan los antecedentes de cumplimiento de los operadores y los patrones de transacción a los procesos de análisis de riesgos?
+    [pilar_13_c5_q3] P3: ¿El enfoque de gestión de riesgos se centra específicamente en temas como la subvaloración, la clasificación incorrecta, el abuso de umbrales, las mercancías falsificadas y las mercancías prohibidas?
+  -- CRITERIO C6: Inspección no intrusiva y análisis de imágenes respaldados por IA --
+    [pilar_13_c6_q1] P1: ¿Se utilizan tecnologías de inspección no intrusiva para apoyar el examen de las consignaciones de comercio electrónico?
+    [pilar_13_c6_q2] P2: ¿Se emplean análisis de imágenes con IA para ayudar a identificar anomalías o paquetes de mayor riesgo?
+    [pilar_13_c6_q3] P3: ¿Se aplica a estas tecnologías la supervisión humana, controles de gobernanza de los datos y salvaguardias contra sesgos o abusos?
+  -- CRITERIO C7: Herramientas digitales que vinculan documentos, imágenes y controles --
+    [pilar_13_c7_q1] P1: ¿Se emplean códigos QR, OCR o tecnologías digitales similares para vincular declaraciones, documentos, imágenes y registros de inspección?
+    [pilar_13_c7_q2] P2: ¿Facilitan las herramientas digitales la identificación automática de anomalías y la derivación de consignaciones de mayor riesgo para su inspección?
+    [pilar_13_c7_q3] P3: ¿Las derivaciones automatizadas están sujetas a la revisión de los funcionarios de aduana antes de que se tomen las medidas definitivas?
+  -- CRITERIO C8: Cooperación, interoperabilidad e intercambio automatizado de datos --
+    [pilar_13_c8_q1] P1: ¿Se establecen mecanismos formales de cooperación entre aduanas, autoridades tributarias, organismos fronterizos y otras partes interesadas pertinentes?
+    [pilar_13_c8_q2] P2: ¿Funciona el intercambio electrónico de datos entre la aduana y los actores pertinentes del sector público y privado?
+    [pilar_13_c8_q3] P3: ¿Fomentan los mecanismos de interoperabilidad un intercambio estructurado y oportuno de información para los controles del comercio electrónico?
+  -- CRITERIO C9: Establecer una gobernanza aduanera y tributaria coordinada para la recaudación de ingresos por comercio electrónico transfronterizo --
+    [pilar_13_c9_q1] P1: ¿Existe un marco de gobierno conjunto o de trabajo formal específico para el comercio electrónico establecido entre la Aduana y la Administración Tributaria para las ventas en línea y la supervisión de las plataformas?
+    [pilar_13_c9_q2] P2: ¿Los datos de importación y las declaraciones de paquetes de poco valor se concilian sistemáticamente con las obligaciones internas de la administración tributaria sobre el IVA/IBS y los registros de ventas de las plataformas?
+    [pilar_13_c9_q3] P3: ¿Las autoridades aduaneras y tributarias intercambian información a nivel de transacción para identificar la subdeclaración, el abuso de umbrales o las brechas de cumplimiento en las ventas de plataformas digitales?
+  -- CRITERIO C10: Establecer indicadores de desempeño y divulgación de información analítica específicos para el comercio electrónico para monitorear los volúmenes --
+    [pilar_13_c10_q1] P1: ¿Elabora la administración estadísticas operativas e informes analíticos específicos que cubran los volúmenes, los tiempos de despacho y los ingresos del comercio electrónico transfronterizo?
+    [pilar_13_c10_q2] P2: ¿Existe un marco consolidado de medición del desempeño con indicadores clave de desempeño específicos para cada comercio electrónico que abarquen las tasas de éxito de la selectividad, los resultados de las inspecciones, la calidad de los datos y las devoluciones?
+    [pilar_13_c10_q3] P3: ¿Se actualizan periódicamente los indicadores de desempeño del comercio electrónico y se usan sistemáticamente por la alta gerencia para perfeccionar los modelos de riesgo y las decisiones de facilitación del comercio?
+  -- CRITERIO C11: Transparencia, cumplimiento voluntario y participación de las mipymes --
+    [pilar_13_c11_q1] P1: ¿Proporciona la administración de aduanas información clara y accesible sobre los requisitos y procedimientos de comercio electrónico mediante canales digitales?
+    [pilar_13_c11_q2] P2: ¿Se dispone de materiales orientativos sobre derechos, impuestos, restricciones, pagos y obligaciones de cumplimiento?
+    [pilar_13_c11_q3] P3: ¿Se dispone de mecanismos para consultas, quejas y asistencia a las mipymes que participan en el comercio electrónico transfronterizo?
+  -- CRITERIO C12: Capacidad institucional para la gestión del comercio electrónico --
+    [pilar_13_c12_q1] P1: ¿Ha establecido la administración de aduanas un programa de capacitación que cubra los riesgos, procedimientos y controles relacionados con el comercio electrónico?
+    [pilar_13_c12_q2] P2: ¿Tiene el personal capacidades especializadas en análisis de datos, detección de fraudes, valoración, clasificación y gestión de riesgos para el comercio electrónico?
+    [pilar_13_c12_q3] P3: ¿Refuerza periódicamente la administración las capacidades mediante la cooperación con plataformas, operadores logísticos y otras partes interesadas?
+
+=== PILAR 14: 14. Auditoría Posterior al Despacho (APD) y Fiscalización Tributaria ===
+  -- CRITERIO C1: Marco jurídico y de gobierno de la APD --
+    [pilar_14_c1_q1] P1: ¿Otorga el marco jurídico a la Aduana potestades suficientes para realizar APD tras el levante de las mercancías?
+    [pilar_14_c1_q2] P2: ¿Proporciona el marco jurídico un alcance adecuado y tiempo para disuadir y corregir el incumplimiento de manera eficaz?
+    [pilar_14_c1_q3] P3: ¿Puede la Aduana exigir el acceso a los registros contables, los sistemas comerciales, las instalaciones y otra información pertinente?
+    [pilar_14_c1_q4] P4: ¿Existen sanciones proporcionadas y están disponibles para desalentar el incumplimiento detectado a través de una APD?
+  -- CRITERIO C2: Independencia de la auditoría y mecanismos institucionales --
+    [pilar_14_c2_q1] P1: ¿Están funcionalmente separadas la selección de casos y la ejecución de la auditoría en función del riesgo?
+    [pilar_14_c2_q2] P2: ¿Existen mecanismos formales de coordinación entre las unidades de gestión de riesgos y de la APD?
+    [pilar_14_c2_q3] P3: ¿Existen salvaguardias para evitar conflictos de intereses en la asignación y ejecución de la auditoría?
+  -- CRITERIO C3: Procedimientos y manual estandarizado de APD --
+    [pilar_14_c3_q1] P1: ¿Cuenta la Aduana con un manual actualizado de procedimientos para la APD que cubra todo el ciclo de auditoría?
+    [pilar_14_c3_q2] P2: ¿Se aplican sistemáticamente los pasos de auditoría estandarizada a todos los equipos de APD?
+    [pilar_14_c3_q3] P3: ¿Se revisa periódicamente el manual de la APD para tener en cuenta cambios en la materia, los procedimientos, la tecnología y los riesgos?
+  -- CRITERIO C4: Plan anual de auditoría en función del riesgo --
+    [pilar_14_c4_q1] P1: ¿Existe un plan anual de APD basado en el análisis de riesgo documentado?
+    [pilar_14_c4_q2] P2: ¿Incluye el plan anual de auditoría basado en el riesgo un mecanismo definido para evaluar, priorizar e incorporar quejas externas o derivaciones de las áreas operativas en la selección de casos de la APD?
+    [pilar_14_c4_q3] P3: ¿Para la planificación de la auditoría se utilizan cotejos y comprobaciones de datos entre información aduanera, fiscal y de terceros?
+    [pilar_14_c4_q4] P4: ¿Los operadores se segmentan por tamaño, sector, historial de cumplimiento y perfil de riesgo para priorizar la fiscalización?
+  -- CRITERIO C5: Acceso a la información electrónica pertinente --
+    [pilar_14_c5_q1] P1: ¿Tiene la APD acceso sistemático a los datos de aduanas, impuestos, registros de comerciantes y declaraciones históricas?
+    [pilar_14_c5_q2] P2: ¿Existen mecanismos formales de intercambio de información con los titulares de los datos públicos y privados pertinentes?
+    [pilar_14_c5_q3] P3: ¿Se utiliza información de terceros para identificar discrepancias y respaldar los hallazgos de una auditoría?
+  -- CRITERIO C6: Pasos de auditoría estandarizados y controles de calidad --
+    [pilar_14_c6_q1] P1: ¿Las auditorías de las APD siguen etapas definidas desde la notificación y planificación hasta la evaluación final y el cierre?
+    [pilar_14_c6_q2] P2: ¿Se aplican normas de prueba para respaldar las conclusiones, las evaluaciones y las respuestas de los contribuyentes?
+    [pilar_14_c6_q3] P3: ¿Se llevan a cabo exámenes de calidad antes de las evaluaciones finales o antes del cierre de los casos de auditoría posterior al despacho?
+  -- CRITERIO C7: Módulo de TI sobre gestión y trazabilidad de auditorías --
+    [pilar_14_c7_q1] P1: ¿Existe un módulo de TI para gestionar los casos de APD a lo largo del ciclo de vida de la auditoría?
+    [pilar_14_c7_q2] P2: ¿Realiza el sistema un seguimiento de evaluaciones, cobros cobros, apelaciones, resultados de litigios y cierre de casos?
+    [pilar_14_c7_q3] P3: ¿Proporciona el módulo de TI retroalimentación sobre los programas de gestión de riesgos y cumplimiento?
+  -- CRITERIO C8: Medición del desempeño y retroalimentación del desempeño de la APD --
+    [pilar_14_c8_q1] P1: ¿Se definen y monitorean periódicamente los indicadores de desempeño de la APD?
+    [pilar_14_c8_q2] P2: ¿Se analizan los resultados de las fiscalizaciones para identificar tendencias de cumplimiento, cambios en el comportamiento de los operadores y patrones de riesgo?
+    [pilar_14_c8_q3] P3: ¿Se usan las conclusiones de la APD para ajustar los criterios de riesgo, los planes de auditoría y las estrategias de tratamiento del cumplimiento?
+  -- CRITERIO C9: Auditores aduaneros especializados en APD --
+    [pilar_14_c9_q1] P1: ¿Cuenta la Aduana con suficientes auditores especializados en APD para proporcionar una cobertura adecuada de los operadores de los sectores comerciales más sensibles?
+    [pilar_14_c9_q2] P2: ¿Tienen los auditores de la APD conocimientos técnicos en clasificación, valoración, origen, impuestos nacionales, procedimientos contables y de auditoría?
+    [pilar_14_c9_q3] P3: ¿Los auditores se organizan o asignan por áreas de riesgo, sectores, capítulos del SA o regímenes especializados?
+  -- CRITERIO C10: Cooperación con las partes interesadas y participación de los operadores --
+    [pilar_14_c10_q1] P1: ¿Existen mecanismos de cooperación regulares con las principales partes interesadas del sector privado?
+    [pilar_14_c10_q2] P2: ¿Ofrece la Aduana orientación o actividades de concientización sobre clasificación, valoración, origen y cuestiones comunes de la APD?
+    [pilar_14_c10_q3] P3: ¿Se utiliza periódicamente la información de la participación de las partes interesadas para mejorar el conocimiento del sector, el análisis de riesgos y las estrategias de cumplimiento?
