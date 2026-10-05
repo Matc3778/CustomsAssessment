@@ -106,6 +106,12 @@
             </div>
           </button>
 
+          <!-- Botón de Sincronización en la Nube -->
+          <button class="btn btn-secondary btn-sm" id="cloud-sync-btn" onclick="openCloudSyncModal()" title="Sincronización en la Nube Multi-dispositivo">
+            <i data-lucide="cloud" style="width: 15px; height: 15px;"></i>
+            <span>Nube</span>
+          </button>
+
           <button class="btn btn-secondary btn-sm" id="btn-export-json" title="Exportar respaldo JSON de toda la evaluación">
             <i data-lucide="download" style="width: 15px; height: 15px;"></i>
             <span>Exportar JSON</span>
@@ -150,8 +156,14 @@
   <!-- Toast Notification Container -->
   <div class="toast-container" id="toast-container"></div>
 
+  <!-- Firebase Realtime Database SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+
   <!-- Base Data and Main Application Scripts -->
   <script src="data.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="firebase-sync.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
