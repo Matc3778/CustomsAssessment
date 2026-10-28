@@ -4,6 +4,8 @@
  */
 
 const STORAGE_KEY_FIREBASE_CONFIG = 'imf_tax_eval_firebase_config';
+const CLIENT_INSTANCE_ID = 'cli_' + Math.random().toString(36).substring(2, 9);
+let lastLocalSaveTimestamp = 0;
 let firebaseApp = null;
 let firebaseDb = null;
 let isRemoteUpdate = false;
@@ -55,28 +57,32 @@ function connectToFirebase(config, showToastMsg = true) {
       updateCloudStatusBadge('connected', 'Nube Sincronizada');
 
       if (cloudData && cloudData.pillars && Array.isArray(cloudData.pillars)) {
-        if (!isRemoteUpdate) {
-          isRemoteUpdate = true;
-          
+        // Detectar si la nube tiene el esquema anterior (14 pilares en lugar del marco oficial CASA de 13 áreas)
+        if (cloudData.pillars.length === 14 || (cloudData.pillars[0] && !String(cloudData.pillars[0].code || '').startsWith('KA'))) {
+          console.log('Migrando Firebase al nuevo esquema oficial FMI CASA (13 Áreas Clave)...');
+          pushStateToCloud(false);
+          return;
+        }
+
+        const isOwnWrite = cloudData.lastUpdatedByClientId === CLIENT_INSTANCE_ID;
+        const isRecentLocalSave = (Date.now() - lastLocalSaveTimestamp) < 3000;
+        const isUserTyping = document.activeElement && (document.activeElement.tagName === 'TEXTAREA' || document.activeElement.tagName === 'INPUT');
+
+        // Si el evento proviene de nuestra propia escritura, guardado reciente o el usuario está escribiendo en esta pestaña,
+        // sincronizamos solo en memoria para NUNCA interrumpir la escritura ni colapsar las preguntas
+        if (isOwnWrite || isRecentLocalSave || isUserTyping) {
           AppState.pillars = cloudData.pillars;
           if (cloudData.mission) AppState.mission = cloudData.mission;
           if (cloudData.team) AppState.team = cloudData.team;
+          if (cloudData.notebook) AppState.notebook = cloudData.notebook;
+          if (cloudData.additionalEvidences) AppState.additionalEvidences = cloudData.additionalEvidences;
+          if (cloudData.narrativas_pilares) AppState.narrativasPilares = Object.assign({}, AppState.narrativasPilares, cloudData.narrativas_pilares);
+          return;
+        }
 
-          // Guardar copia de seguridad en localStorage
-          try {
-            localStorage.setItem(STORAGE_KEY_DATA, JSON.stringify(AppState.pillars));
-            if (cloudData.mission) localStorage.setItem(STORAGE_KEY_META, JSON.stringify(AppState.mission));
-            if (cloudData.team) localStorage.setItem(STORAGE_KEY_TEAM, JSON.stringify(AppState.team));
-          } catch(e) {}
-
-          updateActiveUserHeader();
-          renderSidebarPillars();
-          renderCurrentView();
-          
-          if (showToastMsg) {
-            showToast('Sincronizado con la nube en tiempo real', 'success');
-          }
-          
+        if (!isRemoteUpdate) {
+          isRemoteUpdate = true;
+          handleRemoteCloudUpdate(cloudData, showToastMsg);
           setTimeout(() => { isRemoteUpdate = false; }, 300);
         }
       } else if (!cloudData) {
@@ -109,7 +115,154 @@ function connectToFirebase(config, showToastMsg = true) {
   }
 }
 
-// Subir estado actual a Firebase con debounce (evita saturar peticiones mientras se escribe)
+// Actualización remota inteligente con preservación de foco y edición activa
+function handleRemoteCloudUpdate(cloudData, showToastMsg = false) {
+  const activeEl = document.activeElement;
+  let activeQuestionId = null;
+  let activeField = null;
+  let activeSelStart = 0;
+  let activeSelEnd = 0;
+
+  if (activeEl && (activeEl.tagName === 'TEXTAREA' || activeEl.tagName === 'INPUT')) {
+    activeQuestionId = activeEl.getAttribute('data-qid');
+    activeField = activeEl.getAttribute('data-field');
+    try {
+      activeSelStart = activeEl.selectionStart;
+      activeSelEnd = activeEl.selectionEnd;
+    } catch(e) {}
+  }
+
+  // Si el evaluador local está escribiendo activamente en un campo,
+  // conservamos el valor local en curso para que no sufra sobreescritura accidental
+  if (activeQuestionId) {
+    if (!AppState.openQuestions) AppState.openQuestions = new Set();
+    AppState.openQuestions.add(activeQuestionId);
+  }
+
+  if (activeQuestionId && activeField && cloudData.pillars) {
+    const localVal = activeEl.value;
+    for (const p of cloudData.pillars) {
+      for (const c of (p.criteria || [])) {
+        for (const q of (c.questions || [])) {
+          if (q.id === activeQuestionId) {
+            q[activeField] = localVal;
+          }
+        }
+      }
+    }
+  }
+
+  AppState.pillars = cloudData.pillars;
+  if (cloudData.mission) AppState.mission = cloudData.mission;
+  if (cloudData.team) AppState.team = cloudData.team;
+  if (cloudData.notebook) AppState.notebook = cloudData.notebook;
+  if (cloudData.additionalEvidences) AppState.additionalEvidences = cloudData.additionalEvidences;
+  if (cloudData.narrativas_pilares) {
+    AppState.narrativasPilares = Object.assign({}, AppState.narrativasPilares, cloudData.narrativas_pilares);
+    localStorage.setItem(STORAGE_KEY_NARRATIVAS, JSON.stringify(AppState.narrativasPilares));
+  }
+
+  // Guardar copia de seguridad en localStorage
+  try {
+    localStorage.setItem(STORAGE_KEY_DATA, JSON.stringify(AppState.pillars));
+    if (cloudData.mission) localStorage.setItem(STORAGE_KEY_META, JSON.stringify(AppState.mission));
+    if (cloudData.team) localStorage.setItem(STORAGE_KEY_TEAM, JSON.stringify(AppState.team));
+    if (cloudData.notebook && typeof STORAGE_KEY_NOTEBOOK !== 'undefined') {
+      localStorage.setItem(STORAGE_KEY_NOTEBOOK, JSON.stringify(AppState.notebook));
+    }
+    if (cloudData.additionalEvidences && typeof STORAGE_KEY_ADDITIONAL_EVIDENCES !== 'undefined') {
+      localStorage.setItem(STORAGE_KEY_ADDITIONAL_EVIDENCES, JSON.stringify(AppState.additionalEvidences));
+    }
+  } catch(e) {}
+
+  updateActiveUserHeader();
+  renderSidebarPillars();
+  renderCurrentView();
+
+  // Restaurar foco y cursor inmediatamente si estaba escribiendo
+  if (activeQuestionId && activeField) {
+    setTimeout(() => {
+      const restored = document.querySelector(`[data-qid="${activeQuestionId}"][data-field="${activeField}"]`);
+      if (restored) {
+        restored.focus();
+        try {
+          restored.setSelectionRange(activeSelStart, activeSelEnd);
+        } catch(e) {}
+      }
+    }, 15);
+  }
+
+  if (showToastMsg) {
+    showToast('Sincronizado con la nube en tiempo real', 'success');
+  }
+}
+
+// Sincronización Granular por Pregunta Individual
+function syncQuestionToCloud(pillarId, critId, qId) {
+  if (!firebaseDb || isRemoteUpdate) return;
+
+  const loc = (typeof findQuestionLocation === 'function') ? findQuestionLocation(qId) : null;
+  if (!loc) return;
+
+  const { pIdx, cIdx, qIdx, question } = loc;
+  const user = (typeof getCurrentUser === 'function') ? getCurrentUser() : null;
+
+  updateCloudStatusBadge('syncing', 'Guardando...');
+
+  const qPath = `evaluacion_imf/pillars/${pIdx}/criteria/${cIdx}/questions/${qIdx}`;
+  const cleanQ = JSON.parse(JSON.stringify(question, (k, v) => (v === undefined ? null : v)));
+
+  // Marcar timestamp local de guardado para evitar eco local
+  lastLocalSaveTimestamp = Date.now();
+
+  // Escribe de manera granular únicamente la ruta de esta pregunta
+  firebaseDb.ref(qPath).set(cleanQ)
+    .then(() => {
+      updateCloudStatusBadge('connected', 'Nube Sincronizada');
+    })
+    .catch((err) => {
+      console.error('Error sincronizando pregunta en Firebase:', err);
+      updateCloudStatusBadge('error', 'Error al Guardar');
+    });
+
+  // Actualiza metadatos globales de sesión sin sobreescribir los pilares
+  const metaUpdates = {
+    lastUpdated: new Date().toISOString(),
+    lastUpdatedBy: user ? user.name : 'Evaluador',
+    lastUpdatedByClientId: CLIENT_INSTANCE_ID
+  };
+  firebaseDb.ref('evaluacion_imf').update(metaUpdates).catch(() => {});
+}
+
+// Sincronización Granular del Cuaderno de Notas (por Día y Consultor)
+function syncNotebookToCloud(date, userId) {
+  if (!firebaseDb || isRemoteUpdate) return;
+  const key = `${date}_${userId}`;
+  const entry = AppState.notebook && AppState.notebook[key];
+  if (!entry) return;
+
+  updateCloudStatusBadge('syncing', 'Guardando...');
+  lastLocalSaveTimestamp = Date.now();
+
+  const notePath = `evaluacion_imf/notebook/${key}`;
+  firebaseDb.ref(notePath).set(entry)
+    .then(() => {
+      updateCloudStatusBadge('connected', 'Nube Sincronizada');
+    })
+    .catch((err) => {
+      console.error('Error sincronizando cuaderno en Firebase:', err);
+      updateCloudStatusBadge('error', 'Error al Guardar');
+    });
+
+  const metaUpdates = {
+    lastUpdated: new Date().toISOString(),
+    lastUpdatedBy: entry.authorName || 'Evaluador',
+    lastUpdatedByClientId: CLIENT_INSTANCE_ID
+  };
+  firebaseDb.ref('evaluacion_imf').update(metaUpdates).catch(() => {});
+}
+
+// Subir estado actual completo a Firebase con debounce (para importación, reseteo o misión)
 function pushStateToCloud(showIndicator = true) {
   if (!firebaseDb || isRemoteUpdate) return;
 
@@ -120,12 +273,17 @@ function pushStateToCloud(showIndicator = true) {
   clearTimeout(cloudSyncTimeout);
   cloudSyncTimeout = setTimeout(() => {
     try {
+      lastLocalSaveTimestamp = Date.now();
       const payload = {
         lastUpdated: new Date().toISOString(),
         lastUpdatedBy: getCurrentUser() ? getCurrentUser().name : 'Evaluador',
+        lastUpdatedByClientId: CLIENT_INSTANCE_ID,
         mission: AppState.mission,
         team: AppState.team,
-        pillars: AppState.pillars
+        pillars: AppState.pillars,
+        notebook: AppState.notebook || {},
+        additionalEvidences: AppState.additionalEvidences || [],
+        narrativas_pilares: AppState.narrativasPilares || {}
       };
 
       firebaseDb.ref('evaluacion_imf').set(payload)

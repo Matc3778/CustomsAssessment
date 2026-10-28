@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="es" data-theme="light">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Plataforma de Diagnóstico y Evaluación de Administración Tributaria</title>
-  <meta name="description" content="Sistema colaborativo de evaluación diagnóstica de administraciones tributarias y aduaneras basado en el marco de asistencia técnica y desarrollo de capacidades (FMI / CD Framework).">
+  <meta name="description"
+    content="Sistema colaborativo de evaluación diagnóstica de administraciones tributarias y aduaneras basado en el marco de asistencia técnica y desarrollo de capacidades (FMI / CD Framework).">
 
   <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 
   <!-- Lucide Icons CDN -->
   <script src="https://unpkg.com/lucide@latest"></script>
@@ -17,12 +21,143 @@
   <!-- Chart.js CDN -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+  <!-- SheetJS (Excel .xlsx generation - Local first + CDN fallback) -->
+  <script src="xlsx.full.min.js"
+    onerror="this.onerror=null;this.src='https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js'"></script>
+
   <!-- Application Stylesheet -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261026_reporte_responsable">
 </head>
+
 <body>
 
-  <div id="app-container">
+  <!-- LOGIN & ACCESS GATE -->
+  <div id="login-screen" class="login-screen-wrapper">
+    <div class="login-bg-glow login-bg-glow-1"></div>
+    <div class="login-bg-glow login-bg-glow-2"></div>
+    <div class="login-bg-grid"></div>
+
+    <!-- Floating Theme Toggle in Login -->
+    <button class="btn-icon login-theme-toggle" onclick="toggleTheme()" title="Cambiar Tema Claro/Oscuro">
+      <i data-lucide="moon" style="width: 18px; height: 18px;"></i>
+    </button>
+
+    <div class="login-card" id="login-card">
+      <!-- Header -->
+      <div class="login-header">
+        <div class="login-emblem">
+          <span class="imf-symbol">IMF</span>
+        </div>
+        <div class="login-badge-pill">
+          <span class="flag-icon">🇧🇴</span>
+          <span>Misión Bolivia 2026</span>
+          <span class="badge-dot"></span>
+          <span class="secure-text">Acceso Seguro</span>
+        </div>
+        <h1 class="login-title">Plataforma de Diagnóstico y Evaluación</h1>
+        <p class="login-subtitle">Fondo Monetario Internacional (FMI) • Capacidad y Asistencia Técnica (CD)</p>
+      </div>
+
+      <!-- Paso 1: Seleccionar Evaluador -->
+      <div class="login-step-section">
+        <label class="login-field-label">
+          <i data-lucide="users" style="width: 15px; height: 15px; color: var(--primary-500);"></i>
+          <span>1. Selecciona tu perfil de evaluador</span>
+        </label>
+        <div class="login-team-grid" id="login-team-grid">
+          <div class="login-member-card selected" onclick="selectLoginMember('usr_1')" id="login-card-usr_1">
+            <div class="login-member-avatar" style="background:#1e40af;">JM</div>
+            <div class="login-member-info">
+              <div class="login-member-name">Jefe de Misión</div>
+              <span class="login-member-role">Coordinador General</span>
+            </div>
+          </div>
+          <div class="login-member-card" onclick="selectLoginMember('usr_2')" id="login-card-usr_2">
+            <div class="login-member-avatar" style="background:#0d9488;">EP</div>
+            <div class="login-member-info">
+              <div class="login-member-name">Especialista en Riesgos y Procesos</div>
+              <span class="login-member-role">Evaluador Senior</span>
+            </div>
+          </div>
+          <div class="login-member-card" onclick="selectLoginMember('usr_3')" id="login-card-usr_3">
+            <div class="login-member-avatar" style="background:#7c3aed;">EL</div>
+            <div class="login-member-info">
+              <div class="login-member-name">Especialista Legal y Gobernanza</div>
+              <span class="login-member-role">Evaluador Legal</span>
+            </div>
+          </div>
+          <div class="login-member-card" onclick="selectLoginMember('usr_4')" id="login-card-usr_4">
+            <div class="login-member-avatar" style="background:#ea580c;">ET</div>
+            <div class="login-member-info">
+              <div class="login-member-name">Especialista en TI y Datos</div>
+              <span class="login-member-role">Evaluador TI</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paso 2: PIN o Clave -->
+      <div class="login-step-section">
+        <label class="login-field-label" for="login-pin-input">
+          <i data-lucide="lock" style="width: 15px; height: 15px; color: var(--primary-500);"></i>
+          <span>2. Ingresa tu PIN personal o la Clave de Misión</span>
+        </label>
+        <div class="login-input-wrap">
+          <i data-lucide="key-round" class="login-input-icon"></i>
+          <input type="password" id="login-pin-input" class="login-pin-input" placeholder="PIN o clave de acceso..."
+            autocomplete="current-password">
+          <button type="button" class="login-show-pwd-btn" id="login-toggle-pwd-btn"
+            onclick="toggleLoginPasswordVisibility()" title="Mostrar/Ocultar clave">
+            <i data-lucide="eye" id="login-pwd-eye-icon" style="width: 16px; height: 16px;"></i>
+          </button>
+        </div>
+
+        <!-- Alert Error Message -->
+        <div id="login-error-msg" class="login-error-alert" style="display: none;">
+          <i data-lucide="alert-circle" style="width: 15px; height: 15px; flex-shrink: 0;"></i>
+          <span id="login-error-text">Contraseña o PIN incorrecto.</span>
+        </div>
+
+        <div class="login-helper-box">
+          <i data-lucide="info" style="width: 14px; height: 14px; color: var(--primary-500); flex-shrink: 0;"></i>
+          <span>Clave de misión: <strong>FMI2026</strong> o tu PIN de evaluador (por defecto
+            <strong>2026</strong>).</span>
+        </div>
+      </div>
+
+      <!-- Opciones -->
+      <div class="login-options-row">
+        <label class="login-checkbox-label">
+          <input type="checkbox" id="login-remember-me" checked>
+          <span>Recordar mi sesión en este equipo</span>
+        </label>
+      </div>
+
+      <!-- Botón de Envío -->
+      <button class="btn btn-primary login-submit-btn" id="btn-login-submit" onclick="submitLogin()">
+        <span id="btn-login-text">Ingresar a la Plataforma</span>
+        <i data-lucide="arrow-right" style="width: 17px; height: 17px;"></i>
+      </button>
+
+      <!-- Footer Info -->
+      <div class="login-footer-notice">
+        <i data-lucide="shield-check" style="width: 14px; height: 14px; color: #10b981;"></i>
+        <span>Sincronización en la nube con Google Firebase Realtime Database</span>
+      </div>
+
+      <!-- Acceso Directo al Manual desde Login -->
+      <div class="login-manual-bar"
+        style="margin-top: 1rem; padding-top: 0.85rem; border-top: 1px dashed var(--border-color); text-align: center;">
+        <button type="button" class="btn btn-link btn-sm" onclick="openLoginManualModal()"
+          style="font-size: 0.78rem; color: var(--primary-600); text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem; background: none; border: none; cursor: pointer; font-weight: 600;">
+          <i data-lucide="book-marked" style="width: 14px; height: 14px;"></i>
+          <span>¿Primera vez? Consulta o descarga el Manual de Usuario</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="app-container" style="display: none;">
     <!-- SIDEBAR -->
     <aside class="sidebar" id="app-sidebar">
       <div class="sidebar-header">
@@ -32,7 +167,7 @@
           </div>
           <div class="brand-info">
             <h1>IMF</h1>
-            <span>Impossible Mission Force</span>
+            <span>Capacity Development</span>
           </div>
         </div>
       </div>
@@ -40,7 +175,7 @@
       <!-- Navigation Links -->
       <nav class="sidebar-nav">
         <div class="nav-section-title">Navegación Principal</div>
-        
+
         <a class="nav-item active" data-view-target="dashboard" id="nav-dashboard">
           <i data-lucide="layout-dashboard" style="width: 18px; height: 18px;"></i>
           <span>Un Vistazo (Dashboard)</span>
@@ -52,9 +187,26 @@
           <span class="badge-count" id="nav-q-badge">0/517</span>
         </a>
 
+        <a class="nav-item" data-view-target="evidence" id="nav-evidence">
+          <i data-lucide="folder-check" style="width: 18px; height: 18px;"></i>
+          <span>Evidencias Documentales</span>
+          <span class="badge-count" id="nav-evidence-badge">0/7</span>
+        </a>
+
+        <a class="nav-item" data-view-target="notebook" id="nav-notebook">
+          <i data-lucide="book-open" style="width: 18px; height: 18px;"></i>
+          <span>Cuaderno de Notas</span>
+        </a>
+
         <a class="nav-item" data-view-target="team" id="nav-team">
           <i data-lucide="users" style="width: 18px; height: 18px;"></i>
           <span>Equipo & Asignaciones</span>
+        </a>
+
+        <a class="nav-item" data-view-target="pillar-analysis" id="nav-pillar-analysis">
+          <i data-lucide="file-signature" style="width: 18px; height: 18px;"></i>
+          <span>Análisis por Pilar</span>
+          <span class="badge-count" id="nav-analysis-badge">2/13</span>
         </a>
 
         <a class="nav-item" data-view-target="report" id="nav-report">
@@ -62,12 +214,44 @@
           <span>Informe CD Report</span>
         </a>
 
+        <a class="nav-item" data-view-target="manual" id="nav-manual">
+          <i data-lucide="book-marked" style="width: 18px; height: 18px;"></i>
+          <span>Manual de Usuario</span>
+        </a>
+
+        <!-- Flyout trigger for collapsed mode -->
+        <div class="nav-item-flyout-wrap" id="nav-flyout-wrap" style="display:none;">
+          <a class="nav-item nav-item-flyout" id="nav-flyout-trigger" onclick="togglePillarsFlyout(event)"
+            title="Áreas Clave CASA (13 Áreas)">
+            <i data-lucide="layers" style="width: 18px; height: 18px;"></i>
+            <span class="flyout-icon-badge">13</span>
+          </a>
+          <div class="pillars-flyout-panel" id="pillars-flyout-panel">
+            <div class="flyout-header">
+              <div class="flyout-title">
+                <i data-lucide="layers" style="width:14px;height:14px;color:var(--primary-500);"></i>
+                <span>Áreas Clave (CASA)</span>
+              </div>
+              <button class="btn-icon-xs" onclick="closePillarsFlyout(event)"><i data-lucide="x"
+                  style="width:14px;height:14px;"></i></button>
+            </div>
+            <div class="sidebar-scope-toggle flyout-scope-toggle">
+              <button class="scope-btn" id="flyout-scope-assigned" onclick="setPillarScope('assigned')">Mis
+                Secciones</button>
+              <button class="scope-btn" id="flyout-scope-all" onclick="setPillarScope('all')">Todas</button>
+            </div>
+            <div class="flyout-pillars-list" id="flyout-pillars-list">
+              <!-- Cargado dinámicamente -->
+            </div>
+          </div>
+        </div>
+
         <!-- Pillars Submenu -->
         <div class="nav-section-title" style="margin-top: 1.25rem;">
-          <span>Pilares de Evaluación</span>
-          <span style="font-size: 0.65rem; color: var(--text-muted);">14 Áreas</span>
+          <span>Áreas Clave (CASA)</span>
+          <span style="font-size: 0.65rem; color: var(--text-muted);" id="sidebar-areas-count">13 Áreas</span>
         </div>
-        
+
         <div class="pillar-nav-list" id="sidebar-pillars-list">
           <!-- Dynamic loaded pillars -->
         </div>
@@ -75,7 +259,8 @@
 
       <!-- Sidebar User & Sync Footer -->
       <div class="sidebar-footer">
-        <div class="user-status-card" id="sidebar-user-card" onclick="openSwitchUserModal()" title="Haga clic para cambiar de evaluador">
+        <div class="user-status-card" id="sidebar-user-card" onclick="openSwitchUserModal()"
+          title="Haga clic para cambiar de evaluador">
           <div class="avatar" id="sidebar-user-avatar">JM</div>
           <div class="user-info-text">
             <div class="user-name" id="sidebar-user-name">Jefe de Misión</div>
@@ -91,14 +276,21 @@
     <div class="main-wrapper">
       <!-- Top Application Header -->
       <header class="top-header">
-        <div class="header-title-box">
-          <h2 id="page-header-title">Un Vistazo / Dashboard Ejecutivo</h2>
-          <p id="page-header-subtitle">Evaluación Diagnóstica Institucional</p>
+        <div class="header-left-group" style="display:flex;align-items:center;gap:0.75rem;">
+          <button class="btn-sidebar-toggle" id="btn-sidebar-toggle" onclick="toggleSidebar()"
+            title="Colapsar / Expandir Barra Lateral (Ctrl + B)">
+            <i data-lucide="panel-left-close" id="sidebar-toggle-icon" style="width: 18px; height: 18px;"></i>
+          </button>
+          <div class="header-title-box">
+            <h2 id="page-header-title">Un Vistazo / Dashboard Ejecutivo</h2>
+            <p id="page-header-subtitle">Evaluación Diagnóstica Institucional</p>
+          </div>
         </div>
 
         <div class="header-actions">
           <!-- Botón de Selección de Evaluador Activo -->
-          <button class="user-profile-btn" id="header-user-btn" onclick="openSwitchUserModal()" title="Seleccionar qué evaluador está ingresando">
+          <button class="user-profile-btn" id="header-user-btn" onclick="openSwitchUserModal()"
+            title="Seleccionar qué evaluador está ingresando">
             <div class="user-profile-avatar" id="header-user-avatar" style="background:#1e40af;">JM</div>
             <div class="user-profile-text">
               <div class="u-name" id="header-user-name">Jefe de Misión</div>
@@ -107,34 +299,52 @@
           </button>
 
           <!-- Botón de Sincronización en la Nube -->
-          <button class="btn btn-secondary btn-sm" id="cloud-sync-btn" onclick="openCloudSyncModal()" title="Sincronización en la Nube Multi-dispositivo">
+          <button class="btn btn-secondary btn-sm" id="cloud-sync-btn" onclick="openCloudSyncModal()"
+            title="Sincronización en la Nube Multi-dispositivo">
             <i data-lucide="cloud" style="width: 15px; height: 15px;"></i>
             <span>Nube</span>
           </button>
 
-          <button class="btn btn-secondary btn-sm" id="btn-export-json" title="Exportar respaldo JSON de toda la evaluación">
+          <!-- Botón de Manual de Usuario -->
+          <button class="btn btn-secondary btn-sm" id="btn-header-manual" data-view-target="manual"
+            title="Consultar el Manual de Usuario">
+            <i data-lucide="book-marked" style="width: 15px; height: 15px;"></i>
+            <span>Manual</span>
+          </button>
+
+          <!-- Opciones Administrativas (Solo Jefe de Misión) -->
+          <button class="btn btn-secondary btn-sm admin-only" id="btn-export-json"
+            title="Exportar respaldo JSON de toda la evaluación">
             <i data-lucide="download" style="width: 15px; height: 15px;"></i>
             <span>Exportar JSON</span>
           </button>
 
-          <button class="btn btn-secondary btn-sm" id="btn-import-json" title="Cargar archivo JSON previo">
+          <button class="btn btn-secondary btn-sm admin-only" id="btn-import-json" title="Cargar archivo JSON previo">
             <i data-lucide="upload" style="width: 15px; height: 15px;"></i>
             <span>Importar</span>
           </button>
           <input type="file" id="import-file-input" accept=".json" style="display: none;">
 
-          <button class="btn btn-secondary btn-sm" id="btn-mission-settings" title="Configurar País, Institución y Fechas de Misión">
+          <button class="btn btn-secondary btn-sm admin-only" id="btn-mission-settings"
+            title="Configurar País, Institución y Fechas de Misión">
             <i data-lucide="settings" style="width: 15px; height: 15px;"></i>
             <span>Misión</span>
           </button>
 
-          <button class="btn btn-secondary btn-sm" id="btn-reset-data" onclick="openResetModal()" title="Borrar respuestas de una sección o de todo el cuestionario">
+          <button class="btn btn-secondary btn-sm admin-only" id="btn-reset-data" onclick="openResetModal()"
+            title="Borrar respuestas de una sección o de todo el cuestionario">
             <i data-lucide="rotate-ccw" style="width: 15px; height: 15px; color: #ef4444;"></i>
             <span style="color:#ef4444;font-weight:700;">Reiniciar</span>
           </button>
 
           <button class="btn-icon" id="theme-toggle-btn" title="Cambiar Tema Claro/Oscuro">
             <i data-lucide="moon" style="width: 18px; height: 18px;"></i>
+          </button>
+
+          <!-- Botón de Cerrar Sesión -->
+          <button class="btn btn-secondary btn-sm" id="btn-logout" onclick="logout()" title="Cerrar sesión actual">
+            <i data-lucide="log-out" style="width: 15px; height: 15px; color: #ef4444;"></i>
+            <span>Salir</span>
           </button>
         </div>
       </header>
@@ -161,9 +371,10 @@
   <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
 
   <!-- Base Data and Main Application Scripts -->
-  <script src="data.js"></script>
-  <script src="firebase-config.js"></script>
-  <script src="firebase-sync.js"></script>
-  <script src="app.js"></script>
+  <script src="data.js?v=20261026_reporte_responsable"></script>
+  <script src="firebase-config.js?v=20261020_live_sync"></script>
+  <script src="firebase-sync.js?v=20261022_solicitudes_evidencia"></script>
+  <script src="app.js?v=20261026_reporte_responsable"></script>
 </body>
+
 </html>
