@@ -4508,6 +4508,6 @@ const DEFAULT_DATA = {
       "updatedBy": "Miguel Tapia"
     }
   },
-  "lastUpdated": "2026-10-28T10:52:56.982576Z",
+  "lastUpdated": "2026-10-28T11:47:07.492271Z",
   "lastUpdatedBy": "Sincronización Antigravity (FMI CASA)"
 };
